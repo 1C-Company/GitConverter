@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="76b9ec73-5146-4f03-ab3e-ad6c5a0c65c1">
+  <producedTypes>
+    <objectType typeId="4ce466bf-32a5-476f-8b88-75aec1f6a091" valueTypeId="a2ec5e26-1bc9-4f42-9b65-69e6bf5caea5"/>
+    <managerType typeId="bb2c3483-2624-47e4-9c09-aef70baf0f5b" valueTypeId="d8ea2575-3343-4da6-a8f6-0eabd3864228"/>
+  </producedTypes>
+  <name>СкоростьКонвертации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Скорость конвертации</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.СкоростьКонвертации.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="548be2fe-8f91-4446-80b1-4191dfcb771c">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

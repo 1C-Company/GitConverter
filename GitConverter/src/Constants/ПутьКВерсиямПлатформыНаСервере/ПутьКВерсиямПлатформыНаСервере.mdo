@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e8d0c7dd-56bc-46a0-b7e8-f1b6b715dbb0">
+  <producedTypes>
+    <managerType typeId="88b3c18a-1227-4655-b434-87f6936e8efe" valueTypeId="a1b1c025-ac10-4d49-804a-b8b1bf8e9c81"/>
+    <valueManagerType typeId="355577f8-b8bf-4ec1-a933-dcff8cc33ad5" valueTypeId="41f4a328-cc84-4ac0-8eca-753092123d03"/>
+  </producedTypes>
+  <name>ПутьКВерсиямПлатформыНаСервере</name>
+  <synonym>
+    <key>ru</key>
+    <value>Путь к версиям платформы на сервере</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <explanation>
+    <key>ru</key>
+    <value>Шаблон пути к исполняемым файлам платформы на сервере по версиям.</value>
+  </explanation>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

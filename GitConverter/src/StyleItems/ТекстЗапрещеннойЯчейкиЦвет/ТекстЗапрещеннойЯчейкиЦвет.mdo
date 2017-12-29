@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="59ae9c41-6324-4ba8-bdcc-f3e360e3f2b8">
+  <name>ТекстЗапрещеннойЯчейкиЦвет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Текст запрещенной ячейки</value>
+  </synonym>
+  <comment></comment>
+  <value xsi:type="core:ColorValue">
+    <value xsi:type="core:ColorDef">
+      <red>192</red>
+      <green>192</green>
+      <blue>192</blue>
+    </value>
+  </value>
+</mdclass:StyleItem>

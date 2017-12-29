@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ASCII"?>
+<schedule:Schedule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:schedule="http://g5.1c.ru/v8/dt/schedule">
+  <weekDays>Mon</weekDays>
+  <weekDays>Tue</weekDays>
+  <weekDays>Wed</weekDays>
+  <weekDays>Thu</weekDays>
+  <weekDays>Fri</weekDays>
+  <weekDays>Sat</weekDays>
+  <weekDays>Sun</weekDays>
+  <months>Jan</months>
+  <months>Feb</months>
+  <months>Mar</months>
+  <months>Apr</months>
+  <months>May</months>
+  <months>Jun</months>
+  <months>Jul</months>
+  <months>Aug</months>
+  <months>Sep</months>
+  <months>Oct</months>
+  <months>Nov</months>
+  <months>Dec</months>
+</schedule:Schedule>

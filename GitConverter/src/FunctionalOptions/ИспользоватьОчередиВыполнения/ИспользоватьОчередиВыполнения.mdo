@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="35156dda-4dd8-4fc8-b132-3b208ffc2fab">
+  <name>ИспользоватьОчередиВыполнения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать очереди выполнения</value>
+  </synonym>
+  <comment></comment>
+  <location>Constant.ИспользоватьОчередиВыполнения</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.ОчередиВыполнения</content>
+  <content>Enum.ОперацииОчереди</content>
+  <content>Catalog.ХранилищаКонфигураций.Attribute.ОбрабатыватьВсеОчереди</content>
+  <content>Catalog.ХранилищаКонфигураций.Attribute.ВыгружатьИзменения</content>
+  <content>Catalog.ВерсииХранилища.Attribute.ВыгрузкаИзменений</content>
+  <content>Catalog.ХранилищаКонфигураций.Attribute.ЗапретитьИспользованиеОбщихОчередей</content>
+</mdclass:FunctionalOption>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dabdb562-1efa-4d36-84ed-45360e603415">
+  <producedTypes>
+    <managerType typeId="7e9b1aa3-82b6-48ee-9103-b50a63dd6cf1" valueTypeId="743f021e-a418-4f91-a0fb-637f2e1550bc"/>
+    <valueManagerType typeId="0d410988-1aad-4fc2-88c3-dc405f93f680" valueTypeId="e1f8fb32-cba6-44ff-9377-678640a864de"/>
+  </producedTypes>
+  <name>ИспользоватьОчередиВыполнения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать очереди выполнения</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

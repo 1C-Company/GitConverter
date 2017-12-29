@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="de020e4f-e0c6-49ad-9f16-0f05c0d93fc1">
+  <producedTypes>
+    <refType typeId="a7c2a350-bcdf-4ede-924f-d76f0b89e829" valueTypeId="66b7cba1-c78e-42fb-b0d4-273d42438596"/>
+    <listType typeId="6dffba63-cf03-4da8-b575-85e49fae40ba" valueTypeId="9d9fb888-37dc-40c3-83d1-69cb8c15794f"/>
+    <managerType typeId="f362d959-625c-40ec-a282-0e04937fdcf8" valueTypeId="889c5ff2-cc13-49e3-9ca9-283bc5766fd6"/>
+  </producedTypes>
+  <name>СостоянияВерсии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния версии</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ef07016e-d82e-4353-aac9-29ff2d154177">
+    <name>ПолучениеВерсии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получение версии</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="af1af028-0532-44d5-b780-8a928df1567f">
+    <name>ВерсияПолучена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия получена</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="51e3cb41-c999-4236-a107-91727c63046a">
+    <name>ВыгрузкаВерсии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгрузка версии</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="7a208bd2-3114-4381-a0d7-c68f8651e314">
+    <name>ВерсияВыгружена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия выгружена</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="96d75451-9431-440b-80a6-b103e0a2227e">
+    <name>ЗагрузкаМетаданных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузка метаданных</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="bc0bb8e0-d029-4e80-be57-c78c69e1c3a0">
+    <name>МетаданныеЗагружены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Метаданные загружены</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="c4bd971a-8a2a-4094-a99f-4eec0e4087f7">
+    <name>НачалоКоммита</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало коммита</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="bed08d91-4a0d-410e-9d36-ba3ca3b89658">
+    <name>ВерсияПомещена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия помещена</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

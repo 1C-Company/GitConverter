@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="16d353dc-67a1-4f0c-94f6-2fa1bae6735c">
+  <producedTypes>
+    <refType typeId="3760e28a-5ec5-4f4d-aa51-f9ea4c195729" valueTypeId="5e7bc785-7684-4e40-b7a7-9491f9c86fb9"/>
+    <listType typeId="04815aad-0aad-4b20-a86f-1a48f7037b30" valueTypeId="b425391c-4b72-49cb-8d44-8d064652a4b1"/>
+    <managerType typeId="f75b3211-11e5-44c0-8e7c-d744d84a6a04" valueTypeId="89a9dfeb-1570-4bd8-becc-747c767cc74d"/>
+  </producedTypes>
+  <name>ОперацииОчереди</name>
+  <synonym>
+    <key>ru</key>
+    <value>Операции очереди</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8befc881-4ecc-4457-a9d9-d7be1af0abc3">
+    <name>ВыгрузкаКонфигурации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгрузка конфигурации</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="438caa08-679d-4d17-900e-20972ad0a860">
+    <name>ЗагрузкаМетаданных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузка метаданных</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aa993310-8e65-4336-a5ea-5f4a15f868c1">
+  <name>ВыгрузкаВерсииИзКопииХранилища</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка версии из копии хранилища</value>
+  </synonym>
+  <comment></comment>
+  <methodName>CommonModule.КонвертацияХранилища.ВыгрузитьВерсиюИзКопииХранилища</methodName>
+  <description></description>
+  <key></key>
+  <use>true</use>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

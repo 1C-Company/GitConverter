@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>Catalog.ВерсииХранилища.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Catalog.КопииХранилищКонфигурации.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>InformationRegister.СостоянияВерсии.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Catalog.ХранилищаКонфигураций.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>0:74d4fa7e-97eb-46bc-8793-84bf7ff4f5b7</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>DataProcessor.РегламентныеИФоновыеЗадания.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+</cmi:CommandInterface>
