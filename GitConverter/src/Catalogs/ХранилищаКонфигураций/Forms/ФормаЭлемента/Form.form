@@ -1319,7 +1319,7 @@
         <textEdit>true</textEdit>
         <inputHint>
           <key>ru</key>
-          <value>Относительный путь к каталогу. Может быть пустым...</value>
+          <value>Относительный путь к каталогу. Может быть именем проекта в EDT или пустым...</value>
         </inputHint>
       </extInfo>
     </items>
@@ -2677,6 +2677,10 @@
   <handlers>
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
+  </handlers>
+  <handlers>
+    <event>FillCheckProcessingAtServer</event>
+    <name>ОбработкаПроверкиЗаполненияНаСервере</name>
   </handlers>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>
   <autoTitle>true</autoTitle>
