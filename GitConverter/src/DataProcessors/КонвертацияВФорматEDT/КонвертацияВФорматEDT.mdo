@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="67e0b965-0c45-4581-92a0-c0a62357865a">
+  <producedTypes>
+    <objectType typeId="fbf85225-badf-4b91-b973-09794d91fafb" valueTypeId="a9789f99-a162-414b-8eec-7ad36832b1d3"/>
+    <managerType typeId="49ea87d8-a728-424e-b7f9-a54660829a7e" valueTypeId="0993d3aa-ff8b-4411-8f8b-39a24139f7ac"/>
+  </producedTypes>
+  <name>КонвертацияВФорматEDT</name>
+  <synonym>
+    <key>ru</key>
+    <value>Конвертация в формат EDT</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КонвертацияВФорматEDT.Form.Форма</defaultForm>
+  <forms uuid="9a2e455c-19d1-4220-a93a-e3cc78e9abe3">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
