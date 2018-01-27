@@ -23,6 +23,7 @@
   <vendor>Фирма &quot;1С&quot;</vendor>
   <version>1.0.4.1</version>
   <updateCatalogAddress>http://downloads.v8.1c.ru/tmplts/</updateCatalogAddress>
+  <includeHelpInContents>true</includeHelpInContents>
   <help>
     <pages>
       <lang>ru</lang>

@@ -2,7 +2,9 @@
 <mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="58570c20-db1f-43f1-af51-47fbbb1a4807">
   <producedTypes>
     <objectType typeId="05f9fbff-c741-4146-b558-34c40066473e" valueTypeId="84d4d5de-5106-4ada-a280-d3b75a3c8c70"/>
-    <refType typeId="4cd47643-2547-4b38-9ca6-521f2ca774c1" valueTypeId="651d2114-fbbb-4a89-a773-9d4b2a94d50b"/>
+    <refType typeId="4cd47643-2547-4b38-9ca6-521f2ca774c1" valueTypeId="651d2114-fbbb-4a89-a773-9d4b2a94d50b">
+      <emptyRef/>
+    </refType>
     <selectionType typeId="d397e1f2-6214-4ef1-84fc-7e9f6ae1a389" valueTypeId="68b06300-110b-488b-97d3-a380b46bebd3"/>
     <listType typeId="1f6815ab-9da0-4a5e-93cc-af65e77523f5" valueTypeId="55253154-e0a4-4d7d-b5d1-99c68df30e97"/>
     <managerType typeId="de9a4e79-07ee-49b6-a842-852d0f9ae5a7" valueTypeId="c759b380-fb73-4189-ba2a-ad05e60f6a01"/>
@@ -111,6 +113,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
   <help>
     <pages>
       <lang>ru</lang>
@@ -714,6 +717,12 @@
       <value>Форма элемента</value>
     </synonym>
     <comment></comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>

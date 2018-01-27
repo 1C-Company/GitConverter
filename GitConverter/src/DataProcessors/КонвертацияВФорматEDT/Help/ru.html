@@ -1,0 +1,59 @@
+<html>
+<head>
+<meta content="text/html" charset="UTF-8" http-equiv="Content-Type">
+<meta name="GENERATOR" content="MSHTML 9.00.8112.16476">
+<base href="v8config://a8dd2e89-c043-4f61-ab58-dafb034cd4c1/mdobject/id67e0b965-0c45-4581-92a0-c0a62357865a/038b5c85-fb1c-4082-9c4c-e69f8928bf3a">
+</head>
+<body>
+<h3>Конвертация выгрузки 1С:Предприятия в формат 1C:Enterprise Development Tools</h3>
+<p></p>
+<p>Выполнить конвертацию необходимо, если процесс разработки полностью переносится из <b>Хранилища конфигураций 1С</b>&nbsp;в Git репозиторий.</p>
+<p></p>
+<p><b>Внимание!</b>&nbsp;Конвертация в формат 1C:EDT необратима, поэтому последующая синхронизация с хранилищем конфигураций "1С:Предприятия" невозможна. Конечно, можно сделать "checkout" на коммит до конвертации и продолжить конвертацию в другой ветке, или откатить все изменения с помощью <i>git reset --hard &lt;sha_commit&gt;</i> и т.д.&nbsp;</p>
+<p>Можно так же, в тестовых целях, создать копию элемента справочника "Хранилищ" и копию репозитория - создать ветку и конвертировать в формат 1C:EDT, оставляя возможность синхронизировать хранилище конфигураций с основной веткой Git.</p>
+<p></p>
+<p>Структура каталогов выгрузки 1С:Предприятия и формата 1C:EDT похожи, но немного различаются. Для сохранения истории разработки в формате 1C:EDT запустите обработку <b>"Конвертация в формат EDT"</b>. Она выполняет перемещение файлов в соответствии с форматом 1C:EDT, выполняет коммит в гит, заменяет каталог <i>src</i> выгрузки 1С:Предприятия каталогом из 1C:EDT и выполняет второй коммит с изменением контента файлов.</p>
+<p>Стоит отметить, что содержание xml-файлов 1C:EDT и 1С:Предприятия в некоторых случаях различается существенно, поэтому построчное авторство в таких файлах сохранить не удастся.&nbsp;</p>
+<p>Файлы текстов модулей <i>*.bsl</i> сохраняют историю полностью.</p>
+<p></p>
+<p>1. Откройте 1C:EDT в новом Workspace и выполните импорт конфигурации из файлов: <b>File -&gt; Import -&gt; 1C:Enterprise Development Tools -&gt; Configuration Files</b>, указав директорию к фалам <i>Локальный каталог Git/Каталог выгрузки в репозитории/src/</i>.</p>
+<p>2. Укажите имя проекта соответствующее <b>Каталогу выгрузки в репозитории</b>&nbsp;из настроек, если изначально было указано. Настройки проекта будут скопированы в репозиторий.&nbsp;</p>
+<p>* Если изначально каталог с именем проекта не был указан (ну забыли, не знали...) можно заполнить имя проекта в карточке хранилища и выполнить перемещение <i>git mv ./src ./ИмяПроектаEDT/src</i> и коммит <i>git commit -m "EDT project name"</i> вручную, до конвертации.</p>
+<p>3. Дождитесь окончания импорта и конвертации в 1C:EDT. Компиляцию и валидацию проекта можно не дожидаться - для задачи "перехода разработки на 1C:EDT" нужны только файлы</p>
+<p>4. Если использовали <b>Git LFS</b>&nbsp;- убедитесь что типы файлов, вынесенные в <b>LFS</b>, после конвертации с новыми именами/расширениями так же попадут в <b>LFS</b>.</p>
+<p>5. Выполните конвертацию репозитория с помощью обработки <b>Сервис -&gt; Конвертация в формат EDT</b>, указав путь к папке <b>src</b>&nbsp;c исходными файлами в workspace из 1C:EDT.</p>
+<p></p>
+<p>Если изначально был указан <b>"Каталог выгрузки в репозитории"</b>&nbsp;соответствующий имени проекта, после конвертации можно открыть 1C:EDT в новом &nbsp;Workspace и выполнить импорт проекта из Git: <b>File -&gt; Import -&gt; Git -&gt; Projects from Git</b>&nbsp;и убедиться в корректности конвертации.</p>
+<p></p>
+<p><b>Внимание!</b>&nbsp;Рекомендуется читать документацию к 1C:EDT о настройках Git, работе с проектом, импорте и др.</p>
+<p></p>
+<p>Соответствие имен файлов формата выгрузки 1С:Предприятия и формата 1C:EDT</p>
+<p></p>
+<pre>
+Configuration.xml -&gt; Configuration.mdo
+ClientApplicationInterface.xml -&gt; ClientApplicationInterface.cai
+CommandInterface.xml -&gt; CommandInterface.cmi
+HomePageWorkArea.xml -&gt; HomePageWorkArea.hpwa
+MainSectionCommandInterface.xml -&gt; MainSectionCommandInterface.cmi
+Form.xml -&gt; Form.form
+Template.xml -&gt; Template.bin &nbsp; &nbsp; // BinaryData
+Template.xml -&gt; Template.mxlx &nbsp; &nbsp;// SpreadsheetDocument
+Template.xml -&gt; Template.dcs &nbsp; &nbsp; // DataCompositionSchema
+Template.xml -&gt; Template.txt &nbsp; &nbsp; // FileAwareTextDocument
+Template.xml -&gt; Template.htmldoc // HtmlDocument
+Template.xml -&gt; Template.addin &nbsp; // AddIn
+Template.xml -&gt; Template.scheme &nbsp;// GraphicalScheme
+Template.xml -&gt; Template.axdt &nbsp; &nbsp;// ActiveDocument
+Template.xml -&gt; Template.geos &nbsp; &nbsp;// GeographicalSchema
+Template.xml -&gt; Template.dcsat &nbsp; // DataCompositionAppearanceTemplate
+Package.bin -&gt; Package.xdto
+WSDefinition.xml -&gt; WsDefinitions.wsdl
+Flowchart.xml -&gt; Flowchart.scheme
+Rights.xml -&gt; Rights.rights
+Schedule.xml -&gt; Schedule.schedule
+</pre>
+<p></p>
+<p>Другие файлы изменят имена не значительно, в соответствии с форматом 1C:EDT. Часть файлов (<i>Help.xml</i>, <i>Language.xml</i>, <i>Picture.xml</i>, <i>ФормаСписка.xml</i> и др.) будут удалены, т.к. контент файлов теперь хранится в составе других файлов.</p>
+
+</body>
+</html>
