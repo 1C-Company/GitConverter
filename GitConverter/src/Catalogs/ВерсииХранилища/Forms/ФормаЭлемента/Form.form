@@ -495,17 +495,20 @@
         <textEdit>true</textEdit>
       </extInfo>
     </items>
-    <items xsi:type="form:Decoration">
-      <name>Декорация1</name>
-      <id>89</id>
+    <items xsi:type="form:FormField">
+      <name>sha1</name>
+      <id>97</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.sha1</segments>
+      </dataPath>
       <extendedTooltip>
-        <name>Декорация1РасширеннаяПодсказка1</name>
-        <id>91</id>
+        <name>sha1РасширеннаяПодсказка</name>
+        <id>99</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -519,8 +522,8 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>Декорация1КонтекстноеМеню1</name>
-        <id>90</id>
+        <name>sha1КонтекстноеМеню</name>
+        <id>98</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -528,11 +531,18 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <type>Label</type>
-      <autoMaxHeight>true</autoMaxHeight>
-      <horizontalStretch>true</horizontalStretch>
-      <extInfo xsi:type="form:LabelDecorationExtInfo">
-        <horizontalAlign>Left</horizontalAlign>
+      <type>InputField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:InputFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <wrap>true</wrap>
+        <chooseType>true</chooseType>
+        <typeDomainEnabled>true</typeDomainEnabled>
+        <textEdit>true</textEdit>
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
