@@ -2,7 +2,9 @@
 <mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9193d044-7a2c-4ea3-9506-aa5792b3adca">
   <producedTypes>
     <objectType typeId="0be0e430-6a6c-45f4-9956-e35c0cd8225f" valueTypeId="97fc4c14-38da-4589-9e02-706c86fdd947"/>
-    <refType typeId="5d57556f-455a-4478-894b-2ed04c8498d5" valueTypeId="96238d66-15d7-4c4e-81d0-ad7d9b11f8e6"/>
+    <refType typeId="5d57556f-455a-4478-894b-2ed04c8498d5" valueTypeId="96238d66-15d7-4c4e-81d0-ad7d9b11f8e6">
+      <emptyRef/>
+    </refType>
     <selectionType typeId="95507071-1584-4986-ad6d-29ad084e61e7" valueTypeId="e7135a89-52d8-46d3-b0c1-0255924591e8"/>
     <listType typeId="783fb521-0549-4ceb-abff-4c9214ca8eb7" valueTypeId="120b62bd-f67f-4b1f-908c-6e326ff76da5"/>
     <managerType typeId="c23f5e70-26a3-40b8-a1f5-2fb3133818fc" valueTypeId="699eb534-6408-4be5-81c2-85284628762d"/>
@@ -338,6 +340,26 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8bf28297-9380-4434-8b3e-7c402b561dfc">
+    <name>sha1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Sha1</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>40</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>SHA1 коммита версии в Git, заполняется автоматически при помещении версии в репозиторий.</value>
+    </toolTip>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
