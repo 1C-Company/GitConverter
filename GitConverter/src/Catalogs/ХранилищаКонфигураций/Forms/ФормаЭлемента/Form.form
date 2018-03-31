@@ -1144,6 +1144,10 @@
   <items xsi:type="form:FormField">
     <name>ВыгружатьИзменения</name>
     <id>145</id>
+    <title>
+      <key>ru</key>
+      <value>Выгружать изменения (ускорить конвертацию)</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -1155,6 +1159,7 @@
       </paths>
     </dataPath>
     <titleLocation>Right</titleLocation>
+    <toolTipRepresentation>Button</toolTipRepresentation>
     <extendedTooltip>
       <name>ВыгружатьИзмененияРасширеннаяПодсказка</name>
       <id>147</id>
