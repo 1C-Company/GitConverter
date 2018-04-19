@@ -53,8 +53,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Хранилище</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>Хранилище</segments>
+      </paths>
     </dataPath>
     <handlers>
       <event>OnChange</event>
@@ -107,8 +109,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Хранилище.ВерсияВGit</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>Хранилище.ВерсияВGit</segments>
+      </paths>
     </dataPath>
     <extendedTooltip>
       <name>ХранилищеВерсияВGitРасширеннаяПодсказка</name>
@@ -154,8 +158,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Хранилище.ЛокальныйКаталогGit</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>Хранилище.ЛокальныйКаталогGit</segments>
+      </paths>
     </dataPath>
     <extendedTooltip>
       <name>ХранилищеЛокальныйКаталогGitРасширеннаяПодсказка</name>
@@ -205,8 +211,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Хранилище.КаталогВыгрузкиВРепозитории</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>Хранилище.КаталогВыгрузкиВРепозитории</segments>
+      </paths>
     </dataPath>
     <extendedTooltip>
       <name>ХранилищеКаталогВыгрузкиВРепозиторииРасширеннаяПодсказка</name>
@@ -256,8 +264,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>ОтключитьРегламентныеЗадания</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>ОтключитьРегламентныеЗадания</segments>
+      </paths>
     </dataPath>
     <titleLocation>Right</titleLocation>
     <extendedTooltip>
@@ -300,8 +310,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>ОтключитьКоммиты</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>ОтключитьКоммиты</segments>
+      </paths>
     </dataPath>
     <titleLocation>Right</titleLocation>
     <extendedTooltip>
@@ -344,8 +356,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>ОтключитьОчереди</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>ОтключитьОчереди</segments>
+      </paths>
     </dataPath>
     <titleLocation>Right</titleLocation>
     <extendedTooltip>
@@ -432,13 +446,11 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>ПутьКФайламEDT</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>ПутьКФайламEDT</segments>
+      </paths>
     </dataPath>
-    <toolTip>
-      <key>ru</key>
-      <value></value>
-    </toolTip>
     <extendedTooltip>
       <name>ПутьКФайламEDTРасширеннаяПодсказка</name>
       <id>6</id>
@@ -493,8 +505,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>email</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>email</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>emailРасширеннаяПодсказка</name>
@@ -543,8 +557,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>ИмяПользователя</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>ИмяПользователя</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>ИмяПользователяРасширеннаяПодсказка</name>
@@ -593,8 +609,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Комментарий</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Комментарий</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>КомментарийРасширеннаяПодсказка</name>
@@ -668,6 +686,7 @@
       <united>true</united>
       <showTitle>true</showTitle>
       <throughAlign>Auto</throughAlign>
+      <currentRowUse>DontUse</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
@@ -678,8 +697,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>ВыполнитьPushПослеКонвертации</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>ВыполнитьPushПослеКонвертации</segments>
+      </paths>
     </dataPath>
     <titleLocation>Right</titleLocation>
     <extendedTooltip>
@@ -725,8 +746,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>ИмяФайлаКомандыGit</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>ИмяФайлаКомандыGit</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>ИмяФайлаКомандыGitРасширеннаяПодсказка</name>
@@ -798,6 +821,7 @@
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
+      <currentRowUse>DontUse</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
@@ -811,8 +835,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>ИмяФайлаКомментария</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>ИмяФайлаКомментария</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>ИмяФайлаКомментарияРасширеннаяПодсказка</name>
@@ -884,6 +910,7 @@
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
+      <currentRowUse>DontUse</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
@@ -897,8 +924,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>ИмяФайлаЛога</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>ИмяФайлаЛога</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>ИмяФайлаЛогаРасширеннаяПодсказка</name>
@@ -971,6 +1000,7 @@
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
+      <currentRowUse>DontUse</currentRowUse>
     </extInfo>
   </items>
   <autoCommandBar>
@@ -1276,6 +1306,7 @@
         <name>КонвертироватьВФорматEDT</name>
       </handler>
     </action>
+    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <commandInterface>
     <navigationPanel/>

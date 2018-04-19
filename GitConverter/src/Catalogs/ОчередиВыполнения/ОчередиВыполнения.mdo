@@ -2,9 +2,7 @@
 <mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="de543316-87a9-424b-926e-5dd2b29aa8e8">
   <producedTypes>
     <objectType typeId="cc38e850-1e8e-4bf9-a6d3-6a8737cf7f47" valueTypeId="79c6c593-6cff-4bd0-843a-ac25d311ec3b"/>
-    <refType typeId="7eb6c597-335f-41ae-8de5-a7ab0388fb72" valueTypeId="45459488-7d00-424d-b2eb-189e4f9eb8f5">
-      <emptyRef/>
-    </refType>
+    <refType typeId="7eb6c597-335f-41ae-8de5-a7ab0388fb72" valueTypeId="45459488-7d00-424d-b2eb-189e4f9eb8f5"/>
     <selectionType typeId="add4dd39-b87d-4158-a317-529230f5f984" valueTypeId="cf67659d-1dfa-4ca4-ac79-ef6c4f2b5740"/>
     <listType typeId="752a149c-c040-4b7b-b5d4-b60fde88fa0a" valueTypeId="9dbbca2a-b7c3-44ff-a1b6-79b5947a2f72"/>
     <managerType typeId="325cd31b-3880-40ab-9742-ebea0fd8bd52" valueTypeId="7dbbfc10-9f2d-4aea-bc97-70c58050cdcc"/>
@@ -287,6 +285,7 @@
       <key>ru</key>
       <value>Форма списка</value>
     </synonym>
+    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -296,10 +295,12 @@
       <key>ru</key>
       <value>Очереди выполнения</value>
     </synonym>
+    <comment></comment>
     <group>FormNavigationPanelGoTo</group>
     <commandParameterType>
       <types>CatalogRef.ХранилищаКонфигураций</types>
     </commandParameterType>
     <representation>Auto</representation>
+    <shortcut></shortcut>
   </commands>
 </mdclass:Catalog>

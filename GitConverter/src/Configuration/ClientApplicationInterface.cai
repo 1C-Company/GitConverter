@@ -8,6 +8,6 @@
     <panels id="77734118-744f-45f8-8911-cd195ae0faea" name="OpenedPanel"/>
   </top>
   <left xsi:type="cai:CaiPanel" id="da04fef1-b3b8-4c7c-9407-97e5caedf7a6" name="ToolsPanel"/>
-  <unset id="15da5405-216d-40a1-a60c-c61d5a72155c" name="FavoritePanel"/>
-  <unset id="90c981eb-1453-4c1a-986b-26ff07237587" name="HistoryPanel"/>
+  <unset id="13322b22-3960-4d68-93a6-fe2dd7f28ca3" name="FavoritePanel"/>
+  <unset id="c933ac92-92cd-459d-81cc-e0c8a83ced99" name="HistoryPanel"/>
 </cai:ClientApplicationInterface>
