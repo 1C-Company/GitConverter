@@ -203,10 +203,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="655bbacc-b888-4515-b93f-64df2b627efe">
-    <name>КаталогФайловКонфигурации</name>
+    <name>УдалитьКаталогФайловКонфигурации</name>
     <synonym>
       <key>ru</key>
-      <value>Каталог файлов конфигурации</value>
+      <value>Удалить каталог файлов конфигурации</value>
     </synonym>
     <comment></comment>
     <type>
@@ -221,10 +221,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="e0557715-5cad-48d3-89fa-7c9dd0df5617">
-    <name>КаталогИБ</name>
+    <name>УдалитьКаталогИБ</name>
     <synonym>
       <key>ru</key>
-      <value>Каталог ИБ</value>
+      <value>Удалить каталог ИБ</value>
     </synonym>
     <comment></comment>
     <type>
@@ -342,10 +342,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="8bf28297-9380-4434-8b3e-7c402b561dfc">
-    <name>sha1</name>
+    <name>Хеш</name>
     <synonym>
       <key>ru</key>
-      <value>Sha1</value>
+      <value>Хеш</value>
     </synonym>
     <comment></comment>
     <type>
@@ -356,7 +356,7 @@
     </type>
     <toolTip>
       <key>ru</key>
-      <value>SHA1 коммита версии в Git, заполняется автоматически при помещении версии в репозиторий.</value>
+      <value>Хеш SHA1 коммита версии в Git, заполняется автоматически при помещении версии в репозиторий.</value>
     </toolTip>
     <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
