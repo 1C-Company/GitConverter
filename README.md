@@ -113,6 +113,8 @@ git config --global core.safecrlf true
 
 Подробнее о назначении этих параметров вы можете прочитать в документации Git на английском языке [git config core.safecrlf](http://git-scm.com/docs/git-config#git-config-coresafecrlf) и [git config core.autocrlf](http://git-scm.com/docs/git-config#git-config-coreautocrlf).
 
+**1С:ГитКонвертер** по умолчанию добавляет настройки окончания строк при инициализации репозитория кнопкой из формы настройки хранилища.
+
 #### Git LFS
 
 Для увеличения быстродействия репозитория Git можно использовать расширение __git lfs__ (https://git-lfs.github.com)
