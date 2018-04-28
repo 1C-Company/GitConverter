@@ -119,7 +119,15 @@ git config --global core.safecrlf true
 
 Подробнее о назначении этих параметров вы можете прочитать в документации Git на английском языке [git config core.safecrlf](http://git-scm.com/docs/git-config#git-config-coresafecrlf) и [git config core.autocrlf](http://git-scm.com/docs/git-config#git-config-coreautocrlf).
 
-**1С:ГитКонвертер** по умолчанию добавляет настройки окончания строк при инициализации репозитория кнопкой из формы настройки хранилища.
+**1С:ГитКонвертер** по умолчанию добавляет настройки окончания строк при инициализации репозитория кнопкой из формы настройки хранилища в локальные настройки репозитория:
+
+```bash
+git config --local core.autocrlf true
+git config --local core.safecrlf warn
+```
+
+Т.о. в репозиторий файлы попадут с окончаниями строк попадут как `LF`, выдавая предупреждения в лог, если в файле есть смешение `CRLF` и `LF`.
+
 
 #### Git LFS
 
