@@ -634,11 +634,12 @@
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Относительный путь к каталогу выгрузки конфигурации в репозитории git. Может быть пустым.</value>
+      <value>Каталог проекта 1C:EDT или относительный путь к каталогу выгрузки конфигурации в репозитории git. Не может быть пустым, если хранилище конвертиируется в формат EDT.</value>
     </toolTip>
     <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:StringValue">
       <value></value>
     </fillValue>
@@ -706,6 +707,25 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:StringValue">
       <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="02dee9a8-9e7c-4ecd-8dc5-46666fa8bb52">
+    <name>КонвертироватьВФорматEDT</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конвертировать в формат EDT</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Рекомендуется использовать конвертацию в формат 1C:EDT. Для переключения устаревших настроек воспользуйтесь обработкой &quot;Конвертация в формат EDT&quot;</value>
+    </toolTip>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
     </fillValue>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
