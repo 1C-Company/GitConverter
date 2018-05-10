@@ -1,0 +1,4 @@
+# Binary file extensions that should not be modified.
+*.bin binary
+*.axdt binary
+*.addin binary

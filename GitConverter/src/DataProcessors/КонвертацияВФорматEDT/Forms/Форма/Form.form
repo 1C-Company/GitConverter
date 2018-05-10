@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <items xsi:type="form:Decoration">
     <name>Декорация1</name>
     <id>12</id>
     <title>
       <key>ru</key>
-      <value>&lt;b>&lt;colorstyle -16>Внимание!&lt;/>&lt;/> Конвертация в формат EDT необратима, поэтому последующая синхронизация с хранилищем 1С невозможна.</value>
+      <value>&lt;b>&lt;colorstyle -16>Внимание!&lt;/>&lt;/> Конвертация в формат 1C:EDT необратима, поэтому последующая синхронизация с хранилищем 1С будет выполняться в формате 1C:EDT.</value>
     </title>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -53,8 +53,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Хранилище</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>Хранилище</segments>
+      </paths>
     </dataPath>
     <handlers>
       <event>OnChange</event>
@@ -97,6 +99,12 @@
       <chooseType>true</chooseType>
       <typeDomainEnabled>true</typeDomainEnabled>
       <textEdit>true</textEdit>
+      <choiceParameters>
+        <name>Отбор.КонвертироватьВФорматEDT</name>
+        <value xsi:type="form:FormChoiceListDesTimeValue">
+          <value xsi:type="core:BooleanValue"/>
+        </value>
+      </choiceParameters>
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
@@ -107,8 +115,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Хранилище.ВерсияВGit</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>Хранилище.ВерсияВGit</segments>
+      </paths>
     </dataPath>
     <extendedTooltip>
       <name>ХранилищеВерсияВGitРасширеннаяПодсказка</name>
@@ -154,8 +164,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Хранилище.ЛокальныйКаталогGit</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>Хранилище.ЛокальныйКаталогGit</segments>
+      </paths>
     </dataPath>
     <extendedTooltip>
       <name>ХранилищеЛокальныйКаталогGitРасширеннаяПодсказка</name>
@@ -205,8 +217,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Хранилище.КаталогВыгрузкиВРепозитории</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>Хранилище.КаталогВыгрузкиВРепозитории</segments>
+      </paths>
     </dataPath>
     <extendedTooltip>
       <name>ХранилищеКаталогВыгрузкиВРепозиторииРасширеннаяПодсказка</name>
@@ -249,6 +263,119 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
+    <name>ВерсияПроектаEDT</name>
+    <id>71</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ВерсияПроектаEDT</segments>
+    </dataPath>
+    <toolTip>
+      <key>ru</key>
+      <value>Версия проекта в 1C:EDT</value>
+    </toolTip>
+    <extendedTooltip>
+      <name>ВерсияПроектаEDTРасширеннаяПодсказка</name>
+      <id>73</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>ВерсияПроектаEDTКонтекстноеМеню</name>
+      <id>72</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>InputField</type>
+    <readOnly>true</readOnly>
+    <editMode>Enter</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:InputFieldExtInfo">
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <wrap>true</wrap>
+      <chooseType>true</chooseType>
+      <typeDomainEnabled>true</typeDomainEnabled>
+      <textEdit>true</textEdit>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormField">
+    <name>ИмяПроектаEDT</name>
+    <id>65</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ИмяПроектаEDT</segments>
+    </dataPath>
+    <handlers>
+      <event>OnChange</event>
+      <name>ИмяПроектаEDTПриИзменении</name>
+    </handlers>
+    <extendedTooltip>
+      <name>ИмяПроектаEDTРасширеннаяПодсказка</name>
+      <id>67</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>ИмяПроектаEDTКонтекстноеМеню</name>
+      <id>66</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>InputField</type>
+    <editMode>Enter</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:InputFieldExtInfo">
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <wrap>true</wrap>
+      <chooseType>true</chooseType>
+      <typeDomainEnabled>true</typeDomainEnabled>
+      <textEdit>true</textEdit>
+      <inputHint>
+        <key>ru</key>
+        <value>Имя проекта в 1C:EDT. Должно совпадать с каталогом выгрузки в репозитории.</value>
+      </inputHint>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormField">
     <name>ОтключитьРегламентныеЗадания</name>
     <id>33</id>
     <visible>true</visible>
@@ -256,8 +383,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>ОтключитьРегламентныеЗадания</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>ОтключитьРегламентныеЗадания</segments>
+      </paths>
     </dataPath>
     <titleLocation>Right</titleLocation>
     <extendedTooltip>
@@ -300,8 +429,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>ОтключитьКоммиты</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>ОтключитьКоммиты</segments>
+      </paths>
     </dataPath>
     <titleLocation>Right</titleLocation>
     <extendedTooltip>
@@ -344,8 +475,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>ОтключитьОчереди</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>ОтключитьОчереди</segments>
+      </paths>
     </dataPath>
     <titleLocation>Right</titleLocation>
     <extendedTooltip>
@@ -385,13 +518,22 @@
     <id>15</id>
     <title>
       <key>ru</key>
-      <value>Откройте EDT в новом Wokspace. Выполните импорт Конфигурации из файлов, хранящихся в /локальном каталоге Git/ИмяПроекта/src. Укажите имя проекта соотвествующее каталогу из &quot;Каталог выгрузки в репозитории&quot;. После укажите путь к файлам сконвертированной конфигурации в workspace EDT.</value>
+      <value>Для конвертации на сервере должно быть установлено консольное приложение 1C:EDT 1.8 и выше.</value>
     </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
+    <toolTip>
+      <key>ru</key>
+      <value>Убедитесь что приложение 1C:RING установлено корректно, выполнив команду в терминале:
+
+ring edt platform-versions
+
+Убедитесь что в 1C:EDT доступна версия платформы хранилища.</value>
+    </toolTip>
+    <toolTipRepresentation>Button</toolTipRepresentation>
     <extendedTooltip>
       <name>Декорация2РасширеннаяПодсказка</name>
       <id>17</id>
@@ -420,27 +562,82 @@
     <type>Label</type>
     <autoMaxWidth>true</autoMaxWidth>
     <autoMaxHeight>true</autoMaxHeight>
+    <textColor xsi:type="core:ColorRef">
+      <color>Style.SpecialTextColor</color>
+    </textColor>
     <extInfo xsi:type="form:LabelDecorationExtInfo">
       <horizontalAlign>Left</horizontalAlign>
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
-    <name>ПутьКФайламEDT</name>
-    <id>4</id>
+    <name>ПутьКПроектуEDT</name>
+    <id>68</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>ПутьКФайламEDT</segments>
+      <segments>ПутьКПроектуEDT</segments>
     </dataPath>
-    <toolTip>
-      <key>ru</key>
-      <value></value>
-    </toolTip>
     <extendedTooltip>
-      <name>ПутьКФайламEDTРасширеннаяПодсказка</name>
+      <name>ПутьКПроектуEDTРасширеннаяПодсказка</name>
+      <id>70</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>ПутьКПроектуEDTКонтекстноеМеню</name>
+      <id>69</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>InputField</type>
+    <editMode>Enter</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:InputFieldExtInfo">
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <wrap>true</wrap>
+      <chooseType>true</chooseType>
+      <typeDomainEnabled>true</typeDomainEnabled>
+      <textEdit>true</textEdit>
+      <inputHint>
+        <key>ru</key>
+        <value>Путь к EDT/ИмяПроекта/</value>
+      </inputHint>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormField">
+    <name>ПутьКФайламПроектаEDT</name>
+    <id>4</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>ПутьКФайламПроектаEDT</segments>
+      </paths>
+    </dataPath>
+    <extendedTooltip>
+      <name>ПутьКФайламПроектаEDTРасширеннаяПодсказка</name>
       <id>6</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -455,7 +652,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>ПутьКФайламEDTКонтекстноеМеню</name>
+      <name>ПутьКФайламПроектаEDTКонтекстноеМеню</name>
       <id>5</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -482,6 +679,60 @@
       </inputHint>
     </extInfo>
   </items>
+  <items xsi:type="form:FormField">
+    <name>РабочийКаталогEDT</name>
+    <id>74</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>РабочийКаталогEDT</segments>
+    </dataPath>
+    <extendedTooltip>
+      <name>РабочийКаталогEDTРасширеннаяПодсказка</name>
+      <id>76</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>РабочийКаталогEDTКонтекстноеМеню</name>
+      <id>75</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>InputField</type>
+    <editMode>Enter</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:InputFieldExtInfo">
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <wrap>true</wrap>
+      <chooseType>true</chooseType>
+      <typeDomainEnabled>true</typeDomainEnabled>
+      <textEdit>true</textEdit>
+      <inputHint>
+        <key>ru</key>
+        <value>Катало выгрузки версий/ws/</value>
+      </inputHint>
+    </extInfo>
+  </items>
   <items xsi:type="form:FormGroup">
     <name>ПараметрыКоммитаКонвертации</name>
     <id>39</id>
@@ -493,8 +744,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>email</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>email</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>emailРасширеннаяПодсказка</name>
@@ -543,8 +796,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>ИмяПользователя</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>ИмяПользователя</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>ИмяПользователяРасширеннаяПодсказка</name>
@@ -593,8 +848,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Комментарий</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Комментарий</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>КомментарийРасширеннаяПодсказка</name>
@@ -668,7 +925,57 @@
       <united>true</united>
       <showTitle>true</showTitle>
       <throughAlign>Auto</throughAlign>
+      <currentRowUse>DontUse</currentRowUse>
     </extInfo>
+  </items>
+  <items xsi:type="form:FormField">
+    <name>ВыполнитьПереносВКаталогПроекта</name>
+    <id>77</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ВыполнитьПереносВКаталогПроекта</segments>
+    </dataPath>
+    <titleLocation>Right</titleLocation>
+    <toolTip>
+      <key>ru</key>
+      <value>Если изначально при конвертации в формат 1С:Предприятия не был указан &quot;Каталог выгрузки в репозитории&quot; соответствующий имени проекта, то необходимо указать &quot;Имя проекта 1C:EDT&quot; и выполнить перенос файлов в каталог проекта </value>
+    </toolTip>
+    <toolTipRepresentation>Button</toolTipRepresentation>
+    <extendedTooltip>
+      <name>ВыполнитьПереносВКаталогПроектаРасширеннаяПодсказка</name>
+      <id>79</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>ВыполнитьПереносВКаталогПроектаКонтекстноеМеню</name>
+      <id>78</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>CheckBoxField</type>
+    <editMode>Enter</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
   </items>
   <items xsi:type="form:FormField">
     <name>ВыполнитьPushПослеКонвертации</name>
@@ -678,8 +985,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>ВыполнитьPushПослеКонвертации</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>ВыполнитьPushПослеКонвертации</segments>
+      </paths>
     </dataPath>
     <titleLocation>Right</titleLocation>
     <extendedTooltip>
@@ -725,8 +1034,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>ИмяФайлаКомандыGit</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>ИмяФайлаКомандыGit</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>ИмяФайлаКомандыGitРасширеннаяПодсказка</name>
@@ -798,6 +1109,7 @@
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
+      <currentRowUse>DontUse</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
@@ -811,8 +1123,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>ИмяФайлаКомментария</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>ИмяФайлаКомментария</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>ИмяФайлаКомментарияРасширеннаяПодсказка</name>
@@ -884,6 +1198,7 @@
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
+      <currentRowUse>DontUse</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
@@ -897,8 +1212,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>ИмяФайлаЛога</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>ИмяФайлаЛога</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>ИмяФайлаЛогаРасширеннаяПодсказка</name>
@@ -971,6 +1288,7 @@
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
+      <currentRowUse>DontUse</currentRowUse>
     </extInfo>
   </items>
   <autoCommandBar>
@@ -1063,10 +1381,10 @@
     <fillChecking>ShowError</fillChecking>
   </attributes>
   <attributes>
-    <name>ПутьКФайламEDT</name>
+    <name>ПутьКФайламПроектаEDT</name>
     <title>
       <key>ru</key>
-      <value>Путь к файлам EDT</value>
+      <value>Путь к файлам проекта 1C:EDT</value>
     </title>
     <id>3</id>
     <valueType>
@@ -1261,6 +1579,117 @@
       <common>true</common>
     </edit>
   </attributes>
+  <attributes>
+    <name>ИмяПроектаEDT</name>
+    <title>
+      <key>ru</key>
+      <value>Имя проекта 1C:EDT</value>
+    </title>
+    <id>14</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes>
+    <name>ПутьКПроектуEDT</name>
+    <title>
+      <key>ru</key>
+      <value>Путь к проекту 1C:EDT</value>
+    </title>
+    <id>15</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes>
+    <name>ВерсияПроектаEDT</name>
+    <title>
+      <key>ru</key>
+      <value>Версия проекта в 1C:EDT</value>
+    </title>
+    <id>16</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes>
+    <name>РабочийКаталогEDT</name>
+    <title>
+      <key>ru</key>
+      <value>Рабочий каталог 1C:EDT</value>
+    </title>
+    <id>17</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes>
+    <name>ВыполнитьПереносВКаталогПроекта</name>
+    <title>
+      <key>ru</key>
+      <value>Выполнить перенос в каталог проекта</value>
+    </title>
+    <id>18</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>КаталогВыгрузкиВерсий</name>
+    <title>
+      <key>ru</key>
+      <value>Каталог выгрузки версий</value>
+    </title>
+    <id>19</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
     <name>КонвертироватьВФорматEDT</name>
     <title>
@@ -1276,7 +1705,14 @@
         <name>КонвертироватьВФорматEDT</name>
       </handler>
     </action>
+    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
+  <parameters>
+    <name>Хранилище</name>
+    <valueType>
+      <types>CatalogRef.ХранилищаКонфигураций</types>
+    </valueType>
+  </parameters>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>
