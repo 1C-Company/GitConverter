@@ -52,6 +52,53 @@
     <defaultItem>true</defaultItem>
     <titleLocation>None</titleLocation>
     <items xsi:type="form:FormField">
+      <name>Используется</name>
+      <id>40</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.Используется</segments>
+      </dataPath>
+      <titleLocation>None</titleLocation>
+      <extendedTooltip>
+        <name>ИспользуетсяРасширеннаяПодсказка</name>
+        <id>42</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ИспользуетсяКонтекстноеМеню</name>
+        <id>41</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>CheckBoxField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerPicture xsi:type="core:PictureRef">
+        <picture>StdPicture.GenerateReport</picture>
+      </headerPicture>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+    </items>
+    <items xsi:type="form:FormField">
       <name>Наименование</name>
       <id>19</id>
       <visible>true</visible>
@@ -564,6 +611,10 @@
       <segments>Список.DefaultPicture</segments>
     </rowPictureDataPath>
     <extInfo xsi:type="form:DynamicListTableExtInfo">
+      <handlers>
+        <event>OnGetDataAtServer</event>
+        <name>СписокПриПолученииДанныхНаСервере</name>
+      </handlers>
       <autoRefreshPeriod>60</autoRefreshPeriod>
       <period>
         <startDate>0001-01-01T00:00:00</startDate>
@@ -622,7 +673,8 @@
 	ОчередиВыполнения.ПрефиксНачалаНомераВерсии,
 	ОчередиВыполнения.ПрефиксОкончанияНомераВерсии,
 	ОчередиВыполнения.Предопределенный,
-	ОчередиВыполнения.ИмяПредопределенныхДанных
+	ОчередиВыполнения.ИмяПредопределенныхДанных,
+    Ложь КАК Используется
 ИЗ
 	Справочник.ОчередиВыполнения КАК ОчередиВыполнения
 ГДЕ
