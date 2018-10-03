@@ -52,6 +52,100 @@
     <defaultItem>true</defaultItem>
     <titleLocation>None</titleLocation>
     <items xsi:type="form:FormField">
+      <name>КонвертироватьПоРасписанию</name>
+      <id>35</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.КонвертироватьПоРасписанию</segments>
+      </dataPath>
+      <titleLocation>None</titleLocation>
+      <extendedTooltip>
+        <name>КонвертироватьПоРасписаниюРасширеннаяПодсказка</name>
+        <id>37</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>КонвертироватьПоРасписаниюКонтекстноеМеню</name>
+        <id>36</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>CheckBoxField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerPicture xsi:type="core:PictureRef">
+        <picture>StdPicture.GenerateReport</picture>
+      </headerPicture>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>ВыполнятьКоммиты</name>
+      <id>32</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.ВыполнятьКоммиты</segments>
+      </dataPath>
+      <titleLocation>None</titleLocation>
+      <extendedTooltip>
+        <name>ВыполнятьКоммитыРасширеннаяПодсказка</name>
+        <id>34</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ВыполнятьКоммитыКонтекстноеМеню</name>
+        <id>33</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>CheckBoxField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerPicture xsi:type="core:PictureRef">
+        <picture>StdPicture.WriteAndClose</picture>
+      </headerPicture>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+    </items>
+    <items xsi:type="form:FormField">
       <name>Адрес</name>
       <id>16</id>
       <visible>true</visible>
@@ -465,6 +559,10 @@
     <horizontalStretch>true</horizontalStretch>
     <verticalStretch>true</verticalStretch>
     <extInfo xsi:type="form:DynamicListTableExtInfo">
+      <handlers>
+        <event>OnGetDataAtServer</event>
+        <name>СписокПриПолученииДанныхНаСервере</name>
+      </handlers>
       <autoRefreshPeriod>60</autoRefreshPeriod>
       <period>
         <startDate>0001-01-01T00:00:00</startDate>
@@ -506,11 +604,57 @@
     <edit>
       <common>true</common>
     </edit>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>Список.РегламентноеЗадание</segments>
+    </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>Список.Ссылка</segments>
+    </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>Список.КонвертироватьПоРасписанию</segments>
+    </notDefaultUseAlwaysAttributes>
     <main>true</main>
     <extInfo xsi:type="form:DynamicListExtInfo">
+      <queryText>ВЫБРАТЬ &#xD;
+       ХранилищаКонфигураций.Ссылка, &#xD;
+       ХранилищаКонфигураций.ПометкаУдаления, &#xD;
+       ХранилищаКонфигураций.Наименование, &#xD;
+       ХранилищаКонфигураций.Адрес, &#xD;
+       ХранилищаКонфигураций.ВерсияПлатформы, &#xD;
+       ХранилищаКонфигураций.РегламентноеЗадание, &#xD;
+       ХранилищаКонфигураций.КаталогВыгрузкиВерсий, &#xD;
+       ХранилищаКонфигураций.ИмяПользователяХранилища, &#xD;
+       ХранилищаКонфигураций.ПарольПользователяХранилища, &#xD;
+       ХранилищаКонфигураций.ВерсияВGit, &#xD;
+       ХранилищаКонфигураций.ЛокальныйКаталогGit, &#xD;
+       ХранилищаКонфигураций.УдалятьВременныеДанныеВерсииПослеКоммита, &#xD;
+       ХранилищаКонфигураций.ПерваяВерсия, &#xD;
+       ХранилищаКонфигураций.ПоследняяВерсия, &#xD;
+       ХранилищаКонфигураций.АдресРепозиторияGit, &#xD;
+       ХранилищаКонфигураций.ПользовательСервераGit, &#xD;
+       ХранилищаКонфигураций.ПарольСервераGit, &#xD;
+       ХранилищаКонфигураций.ВыполнятьКоммиты, &#xD;
+       ХранилищаКонфигураций.МаксимальноеКоличествоПодготавливаемыхВерсий, &#xD;
+       ХранилищаКонфигураций.ИмяВетки, &#xD;
+       ХранилищаКонфигураций.МинимальноеКоличествоМетаданных, &#xD;
+       ХранилищаКонфигураций.ОбрабатыватьВсеОчереди, &#xD;
+       ХранилищаКонфигураций.ЗапретитьИспользованиеОбщихОчередей, &#xD;
+       ХранилищаКонфигураций.КоличествоКоммитов, &#xD;
+       ХранилищаКонфигураций.РазрешитьПомещатьАнонимноЕслиНеНайденПользователь, &#xD;
+       ХранилищаКонфигураций.КаталогВыгрузкиВРепозитории, &#xD;
+       ХранилищаКонфигураций.УдалятьКонфигурацииПоставщиков, &#xD;
+       ХранилищаКонфигураций.ВыгружатьИзменения, &#xD;
+       ХранилищаКонфигураций.Описание, &#xD;
+       ХранилищаКонфигураций.КонвертироватьВФорматEDT, &#xD;
+	   ЛОЖЬ КАК КонвертироватьПоРасписанию&#xD;
+ ИЗ &#xD;
+       Справочник.ХранилищаКонфигураций&#xD;
+ КАК &#xD;
+       ХранилищаКонфигураций</queryText>
       <mainTable>Catalog.ХранилищаКонфигураций</mainTable>
       <dynamicDataRead>true</dynamicDataRead>
       <autoFillAvailableFields>true</autoFillAvailableFields>
+      <customQuery>true</customQuery>
       <autoSaveUserSettings>true</autoSaveUserSettings>
       <getInvisibleFieldPresentations>true</getInvisibleFieldPresentations>
     </extInfo>
