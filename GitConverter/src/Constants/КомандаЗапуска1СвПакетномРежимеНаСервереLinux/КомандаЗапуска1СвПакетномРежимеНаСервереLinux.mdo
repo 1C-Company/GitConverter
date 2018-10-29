@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bf8b3842-10ad-4a79-ab06-00ceede803a0">
+  <producedTypes>
+    <managerType typeId="e4c10c04-f0e1-4bc5-a79a-69c1cb49aea6" valueTypeId="86fcb7c1-866b-4382-bd4d-afcc3e75bbf6"/>
+    <valueManagerType typeId="b9471a4b-a496-4e9b-90db-ba7404925272" valueTypeId="9508adf9-1866-4295-b9cd-6daf75ae2b0d"/>
+  </producedTypes>
+  <name>КомандаЗапуска1СвПакетномРежимеНаСервереLinux</name>
+  <synonym>
+    <key>ru</key>
+    <value>Команда запуска 1С в пакетном режиме на сервере под управлением Linux</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <explanation>
+    <key>ru</key>
+    <value>Шаблон команды запуска 1С в пакетном режиме на сервере под управление ОС Linux без графической оболочки</value>
+  </explanation>
+  <toolTip>
+    <key>ru</key>
+    <value>Если используется сервер под управлением ОС Linux без графического интерфейса, то необходимо указать команду запуска с 1С посредством виртуальной графической оболочки. К примеру, &quot;xvfb-run %СтрокаКоманды%&quot;</value>
+  </toolTip>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -90,6 +90,7 @@
   <functionalOptions>FunctionalOption.ИспользоватьОчередиВыполнения</functionalOptions>
   <constants>Constant.ИспользоватьОчередиВыполнения</constants>
   <constants>Constant.ПутьКВерсиямПлатформыНаСервере</constants>
+  <constants>Constant.КомандаЗапуска1СвПакетномРежимеНаСервереLinux</constants>
   <catalogs>Catalog.ВерсииХранилища</catalogs>
   <catalogs>Catalog.КопииХранилищКонфигурации</catalogs>
   <catalogs>Catalog.ОчередиВыполнения</catalogs>
