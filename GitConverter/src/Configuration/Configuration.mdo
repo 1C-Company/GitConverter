@@ -21,7 +21,7 @@
   <defaultRoles>Role.АдминистраторСистемы</defaultRoles>
   <defaultRoles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</defaultRoles>
   <vendor>Фирма &quot;1С&quot;</vendor>
-  <version>1.0.5.7</version>
+  <version>1.0.5.8</version>
   <updateCatalogAddress>http://downloads.v8.1c.ru/tmplts/</updateCatalogAddress>
   <includeHelpInContents>true</includeHelpInContents>
   <help>
@@ -40,7 +40,7 @@
   </detailedInformation>
   <copyright>
     <key>ru</key>
-    <value>Copyright © ООО &quot;1С-Софт&quot;</value>
+    <value>Copyright © ООО &quot;1С-Софт&quot;, Все права защищены. Эта программа и сопроводительные материалы предоставляются в соответствии с условиями лицензии Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) Текст лицензии доступен по ссылке: https://creativecommons.org/licenses/by-sa/4.0/legalcode</value>
   </copyright>
   <vendorInformationAddress>
     <key>ru</key>
