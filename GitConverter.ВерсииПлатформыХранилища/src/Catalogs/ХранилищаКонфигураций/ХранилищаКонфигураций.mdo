@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b5b4f666-5a0b-4e4d-aa4d-03c57e0355c6">
+  <producedTypes>
+    <objectType typeId="97e9b3ed-9ba8-43e3-9a01-fd2f283d9e7d" valueTypeId="2c509e5c-1f4e-4971-8bf0-3753b1e934c3"/>
+    <refType typeId="91766dbd-5289-4f43-9b10-0a0120986090" valueTypeId="a60d86ca-5bb9-4d02-8b29-bfe0a4df2a84"/>
+    <selectionType typeId="e8c5faad-44e9-4218-8543-61701b0846e1" valueTypeId="64c7e44d-ed94-46e2-b5c7-c64775564c9a"/>
+    <listType typeId="2a4b3d1e-5380-43c7-bcf7-a92bd308ab95" valueTypeId="e97d1931-6bf2-4811-b201-8a29d95897f8"/>
+    <managerType typeId="44cba908-005e-4810-a04a-e7f301ee7719" valueTypeId="d8911040-5b1b-48bd-a85c-57eaae11cf71"/>
+  </producedTypes>
+  <name>ХранилищаКонфигураций</name>
+  <comment></comment>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <useStandardCommands>true</useStandardCommands>
+  <searchStringModeOnInputByString>AnyPart</searchStringModeOnInputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="b93ee7cc-e28b-4734-9af1-3098d5e3ea8e">
+    <name>ВерсияПлатформы</name>
+    <comment></comment>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c30e85ae-437e-445d-a899-36e3d0576bf6">
+    <name>Адрес</name>
+    <comment></comment>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c73b46ce-1a23-452b-8e09-2b68bf2f5034">
+    <name>ВерсииПлатформыХранилища</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версии платформы хранилища</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Позволяет указать версию платформы для подключения к Хранилищу 1С, откличную от версии выгрузки. Если не указано, то используется версия платформы, указанная в справочнике настройки конрвертации хранилища.</value>
+    </toolTip>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
