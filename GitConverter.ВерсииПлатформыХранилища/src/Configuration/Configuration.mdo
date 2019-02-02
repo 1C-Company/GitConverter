@@ -54,4 +54,5 @@
   <commonModules>CommonModule.КонвертацияХранилища</commonModules>
   <catalogs>Catalog.КопииХранилищКонфигурации</catalogs>
   <catalogs>Catalog.ХранилищаКонфигураций</catalogs>
+  <catalogs>Catalog.ВерсииХранилища</catalogs>
 </mdclass:Configuration>
