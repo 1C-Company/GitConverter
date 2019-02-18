@@ -730,6 +730,22 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="40bd28b0-6e2d-452e-bf70-d898a56769ec">
+    <name>ДобавлятьМеткиСНомеромКонфигурации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Добавлять метки с номером конфигурации</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>При изменении номера конфигурации, на коммиты будут вешаться теги вида &quot;v1.0.0.1&quot;</value>
+    </toolTip>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="6cc206d4-d733-4a4a-8ed2-adf76440f6af">
     <name>ФормаЭлемента</name>
     <synonym>
