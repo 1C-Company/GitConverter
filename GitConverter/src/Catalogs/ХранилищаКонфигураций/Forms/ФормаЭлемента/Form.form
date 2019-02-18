@@ -1273,7 +1273,7 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.ДобавлятьМеткиСНомеромКонфигурации</segments>
+      <segments>Объект.ДобавлятьМеткиСВерсиейКонфигурации</segments>
     </dataPath>
     <titleLocation>Right</titleLocation>
     <toolTipRepresentation>Button</toolTipRepresentation>
