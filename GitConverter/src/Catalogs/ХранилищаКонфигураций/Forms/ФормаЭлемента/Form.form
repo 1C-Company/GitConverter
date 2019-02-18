@@ -1265,7 +1265,7 @@
     <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
   </items>
   <items xsi:type="form:FormField">
-    <name>ДобавлятьМеткиСНомеромКонфигурации</name>
+    <name>ДобавлятьМеткиСВерсиейКонфигурации</name>
     <id>181</id>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -1278,7 +1278,7 @@
     <titleLocation>Right</titleLocation>
     <toolTipRepresentation>Button</toolTipRepresentation>
     <extendedTooltip>
-      <name>ДобавлятьМеткиСНомеромКонфигурацииРасширеннаяПодсказка</name>
+      <name>ДобавлятьМеткиСВерсиейКонфигурацииРасширеннаяПодсказка</name>
       <id>183</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -1293,7 +1293,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>ДобавлятьМеткиСНомеромКонфигурацииКонтекстноеМеню</name>
+      <name>ДобавлятьМеткиСВерсиейКонфигурацииКонтекстноеМеню</name>
       <id>182</id>
       <visible>true</visible>
       <enabled>true</enabled>
