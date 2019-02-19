@@ -61,11 +61,11 @@
     </items>
     <items xsi:type="form:FormField">
       <name>ВерсииПлатформыХранилища</name>
-      <id>181</id>
       <title>
         <key>ru</key>
         <value>Версия хранилища</value>
       </title>
+      <id>184</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -76,7 +76,7 @@
       </dataPath>
       <extendedTooltip>
         <name>ВерсииПлатформыХранилищаРасширеннаяПодсказка</name>
-        <id>183</id>
+        <id>186</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -91,7 +91,7 @@
       </extendedTooltip>
       <contextMenu>
         <name>ВерсииПлатформыХранилищаКонтекстноеМеню</name>
-        <id>182</id>
+        <id>185</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1302,6 +1302,51 @@
     <contextMenu>
       <name>ВыгружатьИзмененияКонтекстноеМеню</name>
       <id>146</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>CheckBoxField</type>
+    <editMode>Enter</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+  </items>
+  <items xsi:type="form:FormField">
+    <name>ДобавлятьМеткиСВерсиейКонфигурации</name>
+    <id>181</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.ДобавлятьМеткиСВерсиейКонфигурации</segments>
+    </dataPath>
+    <titleLocation>Right</titleLocation>
+    <toolTipRepresentation>Button</toolTipRepresentation>
+    <extendedTooltip>
+      <name>ДобавлятьМеткиСВерсиейКонфигурацииРасширеннаяПодсказка</name>
+      <id>183</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>ДобавлятьМеткиСВерсиейКонфигурацииКонтекстноеМеню</name>
+      <id>182</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

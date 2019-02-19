@@ -448,7 +448,19 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="05acdae6-cb80-414b-ab32-8f5d74783c5e">
+  <attributes uuid="cd28f07d-da5d-427c-b8f0-9f835a6c1b57">
+    <name>ДобавлятьМеткиСВерсиейКонфигурации</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="76c859d5-351f-4ad3-bbc0-d36880664f08">
     <name>ФормаЭлемента</name>
     <comment></comment>
     <objectBelonging>Adopted</objectBelonging>

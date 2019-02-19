@@ -52,7 +52,7 @@
     <languageCode>ru</languageCode>
   </languages>
   <commonModules>CommonModule.КонвертацияХранилища</commonModules>
+  <catalogs>Catalog.ВерсииХранилища</catalogs>
   <catalogs>Catalog.КопииХранилищКонфигурации</catalogs>
   <catalogs>Catalog.ХранилищаКонфигураций</catalogs>
-  <catalogs>Catalog.ВерсииХранилища</catalogs>
 </mdclass:Configuration>
