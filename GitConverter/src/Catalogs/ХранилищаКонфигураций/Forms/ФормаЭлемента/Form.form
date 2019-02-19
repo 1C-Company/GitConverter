@@ -1681,6 +1681,11 @@
           <segments>Объект.АдресРепозиторияGit</segments>
         </paths>
       </dataPath>
+      <toolTipRepresentation>Button</toolTipRepresentation>
+      <handlers>
+        <event>OnChange</event>
+        <name>АдресРепозиторияGitПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>АдресРепозиторияGitРасширеннаяПодсказка1</name>
         <id>67</id>
@@ -1720,7 +1725,7 @@
         <textEdit>true</textEdit>
         <inputHint>
           <key>ru</key>
-          <value>http или https адрес репозитория на сервере Git</value>
+          <value>http, https или ssh адрес репозитория на сервере Git</value>
         </inputHint>
       </extInfo>
     </items>

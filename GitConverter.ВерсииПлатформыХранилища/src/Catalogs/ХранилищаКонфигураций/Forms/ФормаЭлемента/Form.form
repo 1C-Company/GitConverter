@@ -61,11 +61,11 @@
     </items>
     <items xsi:type="form:FormField">
       <name>ВерсииПлатформыХранилища</name>
+      <id>184</id>
       <title>
         <key>ru</key>
         <value>Версия хранилища</value>
       </title>
-      <id>184</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1768,7 +1768,7 @@
         <textEdit>true</textEdit>
         <inputHint>
           <key>ru</key>
-          <value>http или https адрес репозитория на сервере Git</value>
+          <value>http, https или ssh адрес репозитория на сервере Git</value>
         </inputHint>
       </extInfo>
     </items>
