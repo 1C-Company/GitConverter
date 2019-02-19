@@ -282,10 +282,6 @@
         </paths>
       </dataPath>
       <titleLocation>Right</titleLocation>
-      <handlers>
-        <event>OnChange</event>
-        <name>ДругойПользовательПриИзменении</name>
-      </handlers>
       <extendedTooltip>
         <name>ДругойПользовательРасширеннаяПодсказка</name>
         <id>47</id>
@@ -474,10 +470,6 @@
         </paths>
       </dataPath>
       <titleLocation>Right</titleLocation>
-      <handlers>
-        <event>OnChange</event>
-        <name>РегламентноеЗаданиеИспользуетсяПриИзменении</name>
-      </handlers>
       <extendedTooltip>
         <name>РегламентноеЗаданиеИспользуетсяРасширеннаяПодсказка</name>
         <id>17</id>
@@ -555,10 +547,6 @@
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
       <extInfo xsi:type="form:LabelFieldExtInfo">
-        <handlers>
-          <event>Click</event>
-          <name>РасписаниеСтрокойНажатие</name>
-        </handlers>
         <width>40</width>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -619,10 +607,6 @@
         </paths>
       </dataPath>
       <titleLocation>Right</titleLocation>
-      <handlers>
-        <event>OnChange</event>
-        <name>ВыгружатьВОтдельныйКаталогПриИзменении</name>
-      </handlers>
       <extendedTooltip>
         <name>ВыгружатьВОтдельныйКаталогРасширеннаяПодсказка</name>
         <id>34</id>
@@ -791,10 +775,6 @@
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
     <extInfo xsi:type="form:InputFieldExtInfo">
-      <handlers>
-        <event>Opening</event>
-        <name>ИмяФайлаЛогаОткрытие</name>
-      </handlers>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <wrap>true</wrap>
@@ -815,10 +795,7 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
-  <handlers>
-    <event>OnCreateAtServer</event>
-    <name>ПриСозданииНаСервере</name>
-  </handlers>
+  <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -949,14 +926,5 @@
     <navigationPanel/>
     <commandBar/>
   </commandInterface>
-  <extInfo xsi:type="form:CatalogFormExtInfo">
-    <handlers>
-      <event>OnReadAtServer</event>
-      <name>ПриЧтенииНаСервере</name>
-    </handlers>
-    <handlers>
-      <event>BeforeWriteAtServer</event>
-      <name>ПередЗаписьюНаСервере</name>
-    </handlers>
-  </extInfo>
+  <extInfo xsi:type="form:CatalogFormExtInfo"/>
 </form:Form>
