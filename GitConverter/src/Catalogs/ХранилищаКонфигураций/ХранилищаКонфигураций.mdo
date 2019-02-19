@@ -381,7 +381,7 @@
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Адрес репозитория Git на сервере</value>
+      <value>Адрес репозитория Git на сервере. Возможно указание http, https или ssh адреса.  Для варианта SSH авторизации необходимо настроить авторизацию на Git-сервер для пользователя ОС от имени которого запущен сервер 1С.</value>
     </toolTip>
     <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
