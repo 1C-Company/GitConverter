@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <items xsi:type="form:FormGroup">
-    <name>Group2</name>
+    <name>Группа1</name>
     <id>24</id>
     <items xsi:type="form:FormField">
       <name>Адрес</name>
@@ -17,7 +17,7 @@
         </paths>
       </dataPath>
       <extendedTooltip>
-        <name>АдресРасширеннаяПодсказка1</name>
+        <name>АдресРасширеннаяПодсказка</name>
         <id>3</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -32,7 +32,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>АдресКонтекстноеМеню1</name>
+        <name>АдресКонтекстноеМеню</name>
         <id>2</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -73,7 +73,7 @@
         </paths>
       </dataPath>
       <extendedTooltip>
-        <name>ВерсияПлатформыРасширеннаяПодсказка1</name>
+        <name>ВерсияПлатформыРасширеннаяПодсказка</name>
         <id>6</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -88,7 +88,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ВерсияПлатформыКонтекстноеМеню1</name>
+        <name>ВерсияПлатформыКонтекстноеМеню</name>
         <id>5</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -117,7 +117,7 @@
       <common>true</common>
     </userVisible>
     <extendedTooltip>
-      <name>ExtendedTooltip1</name>
+      <name>Группа1РасширеннаяПодсказка</name>
       <id>25</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -140,7 +140,7 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
-    <name>Группа1</name>
+    <name>Группа2</name>
     <id>57</id>
     <items xsi:type="form:FormField">
       <name>ПерваяВерсия</name>
@@ -156,7 +156,7 @@
         </paths>
       </dataPath>
       <extendedTooltip>
-        <name>ПерваяВерсияРасширеннаяПодсказка1</name>
+        <name>ПерваяВерсияРасширеннаяПодсказка</name>
         <id>61</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -171,7 +171,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ПерваяВерсияКонтекстноеМеню1</name>
+        <name>ПерваяВерсияКонтекстноеМеню</name>
         <id>60</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -208,7 +208,7 @@
         </paths>
       </dataPath>
       <extendedTooltip>
-        <name>ПоследняяВерсияРасширеннаяПодсказка1</name>
+        <name>ПоследняяВерсияРасширеннаяПодсказка</name>
         <id>64</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -223,7 +223,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ПоследняяВерсияКонтекстноеМеню1</name>
+        <name>ПоследняяВерсияКонтекстноеМеню</name>
         <id>63</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -315,7 +315,7 @@
       <common>true</common>
     </userVisible>
     <extendedTooltip>
-      <name>Группа1РасширеннаяПодсказка</name>
+      <name>Группа2РасширеннаяПодсказка</name>
       <id>58</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -483,7 +483,7 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
-    <name>Group1</name>
+    <name>Группа3</name>
     <id>22</id>
     <items xsi:type="form:FormField">
       <name>ИмяПользователяХранилища</name>
@@ -503,7 +503,7 @@
         </paths>
       </dataPath>
       <extendedTooltip>
-        <name>ИмяПользователяХранилищаРасширеннаяПодсказка1</name>
+        <name>ИмяПользователяХранилищаРасширеннаяПодсказка</name>
         <id>12</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -518,7 +518,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ИмяПользователяХранилищаКонтекстноеМеню1</name>
+        <name>ИмяПользователяХранилищаКонтекстноеМеню</name>
         <id>11</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -565,7 +565,7 @@
         </paths>
       </dataPath>
       <extendedTooltip>
-        <name>ПарольПользователяХранилищаРасширеннаяПодсказка1</name>
+        <name>ПарольПользователяХранилищаРасширеннаяПодсказка</name>
         <id>15</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -580,7 +580,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ПарольПользователяХранилищаКонтекстноеМеню1</name>
+        <name>ПарольПользователяХранилищаКонтекстноеМеню</name>
         <id>14</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -609,7 +609,7 @@
       <common>true</common>
     </userVisible>
     <extendedTooltip>
-      <name>ExtendedTooltip</name>
+      <name>Группа3РасширеннаяПодсказка</name>
       <id>23</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -632,7 +632,7 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
-    <name>Группа7</name>
+    <name>Группа4</name>
     <id>156</id>
     <items xsi:type="form:FormField">
       <name>КаталогВыгрузкиВерсий</name>
@@ -648,7 +648,7 @@
         </paths>
       </dataPath>
       <extendedTooltip>
-        <name>КаталогВыгрузкиВерсийРасширеннаяПодсказка1</name>
+        <name>КаталогВыгрузкиВерсийРасширеннаяПодсказка</name>
         <id>9</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -663,7 +663,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>КаталогВыгрузкиВерсийКонтекстноеМеню1</name>
+        <name>КаталогВыгрузкиВерсийКонтекстноеМеню</name>
         <id>8</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -763,7 +763,7 @@
       <common>true</common>
     </userVisible>
     <extendedTooltip>
-      <name>Группа7РасширеннаяПодсказка</name>
+      <name>Группа4РасширеннаяПодсказка</name>
       <id>157</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -786,7 +786,7 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
-    <name>Группа4</name>
+    <name>Группа5</name>
     <id>110</id>
     <items xsi:type="form:FormField">
       <name>МаксимальноеКоличествоПодготавливаемыхВерсий</name>
@@ -806,7 +806,7 @@
         </paths>
       </dataPath>
       <extendedTooltip>
-        <name>МаксимальноеКоличествоПодготавливаемыхВерсийРасширеннаяПодсказка1</name>
+        <name>МаксимальноеКоличествоПодготавливаемыхВерсийРасширеннаяПодсказка</name>
         <id>106</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -821,7 +821,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>МаксимальноеКоличествоПодготавливаемыхВерсийКонтекстноеМеню1</name>
+        <name>МаксимальноеКоличествоПодготавливаемыхВерсийКонтекстноеМеню</name>
         <id>105</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -907,7 +907,7 @@
       <common>true</common>
     </userVisible>
     <extendedTooltip>
-      <name>Группа4РасширеннаяПодсказка</name>
+      <name>Группа5РасширеннаяПодсказка</name>
       <id>111</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -930,7 +930,7 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
-    <name>Group4</name>
+    <name>Группа6</name>
     <id>123</id>
     <items xsi:type="form:FormField">
       <name>МинимальноеКоличествоМетаданных</name>
@@ -946,7 +946,7 @@
         </paths>
       </dataPath>
       <extendedTooltip>
-        <name>МинимальноеКоличествоМетаданныхРасширеннаяПодсказка1</name>
+        <name>МинимальноеКоличествоМетаданныхРасширеннаяПодсказка</name>
         <id>114</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -961,7 +961,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>МинимальноеКоличествоМетаданныхКонтекстноеМеню1</name>
+        <name>МинимальноеКоличествоМетаданныхКонтекстноеМеню</name>
         <id>113</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1046,7 +1046,7 @@
       <common>true</common>
     </userVisible>
     <extendedTooltip>
-      <name>Group4ExtendedTooltip</name>
+      <name>Группа6РасширеннаяПодсказка</name>
       <id>124</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -1310,7 +1310,7 @@
     <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
   </items>
   <items xsi:type="form:FormGroup">
-    <name>Group3</name>
+    <name>Группа7</name>
     <id>26</id>
     <items xsi:type="form:FormField">
       <name>ЛокальныйКаталогGit</name>
@@ -1330,7 +1330,7 @@
         <name>ЛокальныйКаталогGitПриИзменении</name>
       </handlers>
       <extendedTooltip>
-        <name>ЛокальныйКаталогGitРасширеннаяПодсказка1</name>
+        <name>ЛокальныйКаталогGitРасширеннаяПодсказка</name>
         <id>21</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1345,7 +1345,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ЛокальныйКаталогGitКонтекстноеМеню1</name>
+        <name>ЛокальныйКаталогGitКонтекстноеМеню</name>
         <id>20</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1377,7 +1377,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>СоздатьРепозиторийGitРасширеннаяПодсказка1</name>
+        <name>СоздатьРепозиторийGitРасширеннаяПодсказка</name>
         <id>41</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1460,7 +1460,7 @@
       <common>true</common>
     </userVisible>
     <extendedTooltip>
-      <name>ExtendedTooltip2</name>
+      <name>Группа7РасширеннаяПодсказка</name>
       <id>27</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -1483,7 +1483,7 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
-    <name>Группа6</name>
+    <name>Группа8</name>
     <id>137</id>
     <items xsi:type="form:FormField">
       <name>КаталогВыгрузкиВРепозитории</name>
@@ -1591,7 +1591,7 @@
       <common>true</common>
     </userVisible>
     <extendedTooltip>
-      <name>Группа6РасширеннаяПодсказка</name>
+      <name>Группа8РасширеннаяПодсказка</name>
       <id>138</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -1666,7 +1666,7 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
-    <name>Группа2</name>
+    <name>Группа9</name>
     <id>68</id>
     <items xsi:type="form:FormField">
       <name>АдресРепозиторияGit</name>
@@ -1687,7 +1687,7 @@
         <name>АдресРепозиторияGitПриИзменении</name>
       </handlers>
       <extendedTooltip>
-        <name>АдресРепозиторияGitРасширеннаяПодсказка1</name>
+        <name>АдресРепозиторияGitРасширеннаяПодсказка</name>
         <id>67</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1702,7 +1702,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>АдресРепозиторияGitКонтекстноеМеню1</name>
+        <name>АдресРепозиторияGitКонтекстноеМеню</name>
         <id>66</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1738,7 +1738,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>УстановитьАдресРепозиторияGitРасширеннаяПодсказка1</name>
+        <name>УстановитьАдресРепозиторияGitРасширеннаяПодсказка</name>
         <id>79</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1765,7 +1765,7 @@
       <common>true</common>
     </userVisible>
     <extendedTooltip>
-      <name>Группа2РасширеннаяПодсказка</name>
+      <name>Группа9РасширеннаяПодсказка</name>
       <id>69</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -1788,7 +1788,7 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
-    <name>Группа3</name>
+    <name>Группа10</name>
     <id>70</id>
     <items xsi:type="form:FormField">
       <name>ПользовательСервераGit</name>
@@ -1808,7 +1808,7 @@
         </paths>
       </dataPath>
       <extendedTooltip>
-        <name>ПользовательСервераGitРасширеннаяПодсказка1</name>
+        <name>ПользовательСервераGitРасширеннаяПодсказка</name>
         <id>74</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1823,7 +1823,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ПользовательСервераGitКонтекстноеМеню1</name>
+        <name>ПользовательСервераGitКонтекстноеМеню</name>
         <id>73</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1868,7 +1868,7 @@
         </paths>
       </dataPath>
       <extendedTooltip>
-        <name>ПарольСервераGitРасширеннаяПодсказка1</name>
+        <name>ПарольСервераGitРасширеннаяПодсказка</name>
         <id>77</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1883,7 +1883,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ПарольСервераGitКонтекстноеМеню1</name>
+        <name>ПарольСервераGitКонтекстноеМеню</name>
         <id>76</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1916,7 +1916,7 @@
       <common>true</common>
     </userVisible>
     <extendedTooltip>
-      <name>Группа3РасширеннаяПодсказка</name>
+      <name>Группа10РасширеннаяПодсказка</name>
       <id>71</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -1939,7 +1939,7 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
-    <name>Группа5</name>
+    <name>Группа11</name>
     <id>118</id>
     <items xsi:type="form:FormField">
       <name>ВыполнятьКоммиты</name>
@@ -1956,7 +1956,7 @@
       </dataPath>
       <titleLocation>Right</titleLocation>
       <extendedTooltip>
-        <name>ВыполнятьКоммитыРасширеннаяПодсказка1</name>
+        <name>ВыполнятьКоммитыРасширеннаяПодсказка</name>
         <id>103</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1971,7 +1971,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ВыполнятьКоммитыКонтекстноеМеню1</name>
+        <name>ВыполнятьКоммитыКонтекстноеМеню</name>
         <id>102</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -2001,7 +2001,7 @@
         </paths>
       </dataPath>
       <extendedTooltip>
-        <name>КоличествоКоммитов1РасширеннаяПодсказка1</name>
+        <name>КоличествоКоммитов1РасширеннаяПодсказка</name>
         <id>122</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -2016,7 +2016,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>КоличествоКоммитов1КонтекстноеМеню1</name>
+        <name>КоличествоКоммитов1КонтекстноеМеню</name>
         <id>121</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -2057,7 +2057,7 @@
         </paths>
       </dataPath>
       <extendedTooltip>
-        <name>КоличествоВерсийОбработаноРасширеннаяПодсказка1</name>
+        <name>КоличествоВерсийОбработаноРасширеннаяПодсказка</name>
         <id>89</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -2072,7 +2072,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>КоличествоВерсийОбработаноКонтекстноеМеню1</name>
+        <name>КоличествоВерсийОбработаноКонтекстноеМеню</name>
         <id>88</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -2102,7 +2102,7 @@
       <common>true</common>
     </userVisible>
     <extendedTooltip>
-      <name>Группа5РасширеннаяПодсказка</name>
+      <name>Группа11РасширеннаяПодсказка</name>
       <id>119</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -2777,7 +2777,7 @@
     <name>CommandBar</name>
     <id>37</id>
     <items xsi:type="form:Button">
-      <name>FormЗапуститьКонвертацию</name>
+      <name>ФормаЗапуститьКонвертацию</name>
       <id>31</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -2785,7 +2785,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>FormЗапуститьКонвертациюРасширеннаяПодсказка</name>
+        <name>ФормаЗапуститьКонвертациюРасширеннаяПодсказка</name>
         <id>32</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -2806,7 +2806,7 @@
       <placementArea>UserCmds</placementArea>
     </items>
     <items xsi:type="form:Button">
-      <name>FormВыполнитьКоммиты</name>
+      <name>ФормаВыполнитьКоммиты</name>
       <id>33</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -2814,7 +2814,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>FormВыполнитьКоммитыРасширеннаяПодсказка</name>
+        <name>ФормаВыполнитьКоммитыРасширеннаяПодсказка</name>
         <id>34</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -2835,7 +2835,7 @@
       <placementArea>UserCmds</placementArea>
     </items>
     <items xsi:type="form:Button">
-      <name>FormОбновитьСостояние</name>
+      <name>ФормаОбновитьСостояние</name>
       <id>35</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -2843,7 +2843,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>FormОбновитьСостояниеРасширеннаяПодсказка</name>
+        <name>ФормаОбновитьСостояниеРасширеннаяПодсказка</name>
         <id>36</id>
         <visible>true</visible>
         <enabled>true</enabled>
