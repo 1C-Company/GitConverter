@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ee76f340-c7eb-4605-afe4-a02f8f7d8c4f">
+  <name>ИспользоватьНесколькоВерсийEDT</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать несколько версий EDT</value>
+  </synonym>
+  <location>Constant.ИспользоватьНесколькоВерсийEDT</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.ХранилищаКонфигураций.Attribute.ВерсияEDT</content>
+  <content>DataProcessor.КонвертацияВФорматEDT.Attribute.ВерсияEDT</content>
+</mdclass:FunctionalOption>
