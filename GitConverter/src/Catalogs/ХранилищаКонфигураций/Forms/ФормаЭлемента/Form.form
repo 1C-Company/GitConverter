@@ -290,6 +290,7 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Объект.ВерсияEDT</segments>
       </dataPath>
+      <toolTipRepresentation>Button</toolTipRepresentation>
       <extendedTooltip>
         <name>ВерсияEDTРасширеннаяПодсказка</name>
         <id>186</id>
@@ -327,6 +328,10 @@
         <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
         <textEdit>true</textEdit>
+        <inputHint>
+          <key>ru</key>
+          <value>1.9.4</value>
+        </inputHint>
       </extInfo>
     </items>
     <items xsi:type="form:Button">

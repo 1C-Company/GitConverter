@@ -756,6 +756,11 @@
         <length>10</length>
       </stringQualifiers>
     </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Компонента ring, в случае если на сервере конвертации хранилища установлено несколько версий EDT, требует явного указания версии. После указания версии во всех командах ring edt будет установлен номер версии.</value>
+    </toolTip>
+    <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
