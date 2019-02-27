@@ -764,6 +764,22 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="9ce73377-0cb5-4e0a-a0ce-bf832b544d72">
+    <name>СоздаватьБазыВСписке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создавать базы в списке</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Добавление временной базы в список увеличивает скорость конвертации, но тратится дополнительное место на диске и эти базы остаются в списке баз.</value>
+    </toolTip>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="6cc206d4-d733-4a4a-8ed2-adf76440f6af">
     <name>ФормаЭлемента</name>
     <synonym>
