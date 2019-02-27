@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b924b5c7-8032-4c5a-b670-0a0935fb8449">
+  <producedTypes>
+    <managerType typeId="168ae5e0-3864-4cf7-a048-92772d84dcba" valueTypeId="d2aa1a26-e97e-4dda-b85c-3f804e9342b4"/>
+    <valueManagerType typeId="45ad857f-debd-4897-8cdb-a7f2d229b5e9" valueTypeId="c58fab63-0b9b-4cc7-9426-42d9107ab158"/>
+  </producedTypes>
+  <name>ИспользоватьНесколькоВерсийEDT</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать несколько версий EDT</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
