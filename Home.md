@@ -18,7 +18,7 @@
 
 ### Необходимые компоненты
 
-* Конфигурацию можно запустить, используя 1C:Enterprise Development Tools 1.8.3 (https://releases.1c.ru/project/DevelopmentTools10)
+* Конфигурацию можно запустить, используя 1C:Enterprise Development Tools 1.10 (https://releases.1c.ru/project/DevelopmentTools10)
 * Платформа 1С:Предприятия 8.3.12 и выше (https://releases.1c.ru/project/Platform83)
 * СУБД, поддерживаемая 1С:Предприятием
 * OS Windows 7 или выше, ОС Linux и macOS - в бета-режиме.
