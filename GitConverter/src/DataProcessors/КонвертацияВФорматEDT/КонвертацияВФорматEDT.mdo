@@ -18,6 +18,19 @@
       <lang>ru</lang>
     </pages>
   </help>
+  <attributes uuid="77e1a1e6-e855-4937-b887-3120b60f86c4">
+    <name>ВерсияEDT</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия EDT</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+  </attributes>
   <forms uuid="9a2e455c-19d1-4220-a93a-e3cc78e9abe3">
     <name>Форма</name>
     <synonym>

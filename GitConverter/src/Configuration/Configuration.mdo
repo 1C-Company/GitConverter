@@ -21,7 +21,7 @@
   <defaultRoles>Role.АдминистраторСистемы</defaultRoles>
   <defaultRoles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</defaultRoles>
   <vendor>Фирма &quot;1С&quot;</vendor>
-  <version>1.0.5.8</version>
+  <version>1.0.6.1</version>
   <updateCatalogAddress>http://downloads.v8.1c.ru/tmplts/</updateCatalogAddress>
   <includeHelpInContents>true</includeHelpInContents>
   <help>
@@ -87,7 +87,9 @@
   <scheduledJobs>ScheduledJob.ВыгрузкаВерсииИзКопииХранилища</scheduledJobs>
   <scheduledJobs>ScheduledJob.КонвертацияХранилища</scheduledJobs>
   <scheduledJobs>ScheduledJob.ОбработкаОчереди</scheduledJobs>
+  <functionalOptions>FunctionalOption.ИспользоватьНесколькоВерсийEDT</functionalOptions>
   <functionalOptions>FunctionalOption.ИспользоватьОчередиВыполнения</functionalOptions>
+  <constants>Constant.ИспользоватьНесколькоВерсийEDT</constants>
   <constants>Constant.ИспользоватьОчередиВыполнения</constants>
   <constants>Constant.ПутьКВерсиямПлатформыНаСервере</constants>
   <catalogs>Catalog.ВерсииХранилища</catalogs>

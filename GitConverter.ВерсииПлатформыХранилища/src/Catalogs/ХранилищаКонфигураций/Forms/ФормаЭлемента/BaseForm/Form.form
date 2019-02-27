@@ -410,10 +410,6 @@
         </paths>
       </dataPath>
       <titleLocation>Right</titleLocation>
-      <handlers>
-        <event>OnChange</event>
-        <name>РегламентноеЗаданиеИспользуетсяПриИзменении</name>
-      </handlers>
       <extendedTooltip>
         <name>РегламентноеЗаданиеИспользуетсяРасширеннаяПодсказка1</name>
         <id>48</id>
@@ -491,10 +487,6 @@
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
       <extInfo xsi:type="form:LabelFieldExtInfo">
-        <handlers>
-          <event>Click</event>
-          <name>РасписаниеСтрокойНажатие</name>
-        </handlers>
         <width>40</width>
         <autoMaxHeight>true</autoMaxHeight>
         <horizontalStretch>true</horizontalStretch>
@@ -799,10 +791,6 @@
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
       <extInfo xsi:type="form:InputFieldExtInfo">
-        <handlers>
-          <event>Opening</event>
-          <name>ИмяФайлаЛогаОткрытие</name>
-        </handlers>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <wrap>true</wrap>
@@ -1380,10 +1368,6 @@
           <segments>Объект.ЛокальныйКаталогGit</segments>
         </paths>
       </dataPath>
-      <handlers>
-        <event>OnChange</event>
-        <name>ЛокальныйКаталогGitПриИзменении</name>
-      </handlers>
       <extendedTooltip>
         <name>ЛокальныйКаталогGitРасширеннаяПодсказка</name>
         <id>21</id>
@@ -1737,10 +1721,6 @@
         </paths>
       </dataPath>
       <toolTipRepresentation>Button</toolTipRepresentation>
-      <handlers>
-        <event>OnChange</event>
-        <name>АдресРепозиторияGitПриИзменении</name>
-      </handlers>
       <extendedTooltip>
         <name>АдресРепозиторияGitРасширеннаяПодсказка</name>
         <id>67</id>
@@ -3071,18 +3051,6 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
-  <handlers>
-    <event>OnOpen</event>
-    <name>ПриОткрытии</name>
-  </handlers>
-  <handlers>
-    <event>OnCreateAtServer</event>
-    <name>ПриСозданииНаСервере</name>
-  </handlers>
-  <handlers>
-    <event>FillCheckProcessingAtServer</event>
-    <name>ОбработкаПроверкиЗаполненияНаСервере</name>
-  </handlers>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
@@ -3364,11 +3332,6 @@
     <picture xsi:type="core:PictureRef">
       <picture>StdPicture.Refresh</picture>
     </picture>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ОбновитьСостояние</name>
-      </handler>
-    </action>
     <representation>TextPicture</representation>
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
@@ -3385,11 +3348,6 @@
     <picture xsi:type="core:PictureRef">
       <picture>StdPicture.BusinessProcessStart</picture>
     </picture>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ЗапуститьКонвертацию</name>
-      </handler>
-    </action>
     <representation>TextPicture</representation>
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
@@ -3406,11 +3364,6 @@
     <picture xsi:type="core:PictureRef">
       <picture>StdPicture.WriteChanges</picture>
     </picture>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ВыполнитьКоммиты</name>
-      </handler>
-    </action>
     <representation>TextPicture</representation>
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
@@ -3431,11 +3384,6 @@
     <picture xsi:type="core:PictureRef">
       <picture>StdPicture.CreateInitialImage</picture>
     </picture>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>СоздатьРепозиторийGit</name>
-      </handler>
-    </action>
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
@@ -3452,11 +3400,6 @@
     <use>
       <common>true</common>
     </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ОбновлятьСостояниеАвтоматически</name>
-      </handler>
-    </action>
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
@@ -3476,11 +3419,6 @@
     <picture xsi:type="core:PictureRef">
       <picture>StdPicture.ReadChanges</picture>
     </picture>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ЗагрузитьВерсииИзОтчетаПоХранилищу</name>
-      </handler>
-    </action>
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
@@ -3500,11 +3438,6 @@
     <picture xsi:type="core:PictureRef">
       <picture>StdPicture.CreateInitialImage</picture>
     </picture>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>УстановитьАдресРепозиторияGit</name>
-      </handler>
-    </action>
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
@@ -3521,11 +3454,6 @@
     <use>
       <common>true</common>
     </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>КонвертироватьВФорматEDT</name>
-      </handler>
-    </action>
   </formCommands>
   <formCommands>
     <name>ПроверитьДоступнуюВерсиюEDT</name>
@@ -3537,29 +3465,11 @@
     <use>
       <common>true</common>
     </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ПроверитьДоступнуюВерсиюEDT</name>
-      </handler>
-    </action>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>
   </commandInterface>
-  <extInfo xsi:type="form:CatalogFormExtInfo">
-    <handlers>
-      <event>AfterWrite</event>
-      <name>ПослеЗаписи</name>
-    </handlers>
-    <handlers>
-      <event>OnReadAtServer</event>
-      <name>ПриЧтенииНаСервере</name>
-    </handlers>
-    <handlers>
-      <event>BeforeWriteAtServer</event>
-      <name>ПередЗаписьюНаСервере</name>
-    </handlers>
-  </extInfo>
+  <extInfo xsi:type="form:CatalogFormExtInfo"/>
 </form:Form>
