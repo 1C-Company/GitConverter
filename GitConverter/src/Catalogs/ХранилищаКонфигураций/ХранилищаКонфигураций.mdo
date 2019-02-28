@@ -744,22 +744,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="9ce73377-0cb5-4e0a-a0ce-bf832b544d72">
-    <name>СоздаватьБазыВСписке</name>
-    <synonym>
-      <key>ru</key>
-      <value>Создавать базы в списке</value>
-    </synonym>
-    <type>
-      <types>Boolean</types>
-    </type>
-    <toolTip>
-      <key>ru</key>
-      <value>Добавление временной базы в список увеличивает скорость конвертации, но тратится дополнительное место на диске и эти базы остаются в списке баз.</value>
-    </toolTip>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="3fe44b23-5143-459d-9549-06f56e2c70db">
     <name>ВерсияEDT</name>
     <synonym>
@@ -777,6 +761,22 @@
       <value>Компонента ring, в случае если на сервере конвертации хранилища установлено несколько версий EDT, требует явного указания версии. После указания версии во всех командах ring edt будет установлен номер версии.</value>
     </toolTip>
     <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9ce73377-0cb5-4e0a-a0ce-bf832b544d72">
+    <name>СоздаватьБазыВСписке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создавать базы в списке</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Добавление временной базы в список увеличивает скорость конвертации, но тратится дополнительное место на диске и эти базы остаются в списке баз.</value>
+    </toolTip>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
