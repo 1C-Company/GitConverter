@@ -476,6 +476,18 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="10c1897e-2dd9-401e-b912-93ed226befa0">
+    <name>ОтключитьЛогирование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="76c859d5-351f-4ad3-bbc0-d36880664f08">
     <name>ФормаЭлемента</name>
     <comment></comment>

@@ -309,6 +309,10 @@
     <type>
       <types>Boolean</types>
     </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Позволяет удалять сразу после коммита каталог временных данных, необходимых для подготовки версии конвертации.</value>
+    </toolTip>
     <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -525,7 +529,7 @@
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Минимальное количество метаданных при загрузке позволяет контролировать что 1С:Конфигуратор выгрузил все без ошибок и падений.</value>
+      <value>Минимальное количество метаданных при загрузке позволяет контролировать что 1С:Конфигуратор выгрузил все без ошибок и падений. Рекомендуется указывать количество в размере 90-95% от количества в в текущей версии.</value>
     </toolTip>
     <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -548,7 +552,7 @@
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Флаг разрешения работы для всех очередей.</value>
+      <value>Флаг разрешения работы для всех очередей. Позволяет включать и отключать обработку очередей по текущей настройке конвертации.</value>
     </toolTip>
     <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -567,6 +571,10 @@
     <type>
       <types>Boolean</types>
     </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Будут использованы очереди только для текущего хранилища. Общие очереди выполняют обработку версий хранилища в порядке даты создания.</value>
+    </toolTip>
     <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -761,6 +769,22 @@
       <value>Компонента ring, в случае если на сервере конвертации хранилища установлено несколько версий EDT, требует явного указания версии. После указания версии во всех командах ring edt будет установлен номер версии.</value>
     </toolTip>
     <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0e1eaf6c-45d0-4b1c-bc03-734a8d8d59bd">
+    <name>ОтключитьЛогирование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отключить логирование</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Позволяет отключить логирование всех действий по проекту в файлы логов. Снижает нагрузку на диск, но усложняет расследование неполадок.</value>
+    </toolTip>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
