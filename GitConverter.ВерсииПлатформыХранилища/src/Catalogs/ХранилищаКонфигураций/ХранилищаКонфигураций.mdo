@@ -285,7 +285,7 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="db357664-10ca-4d49-b20e-4d24b922a137">
-    <name>КаталогВыгрузкиВРепозитории</name>
+    <name>ИмяПроектаEDT</name>
     <comment></comment>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">

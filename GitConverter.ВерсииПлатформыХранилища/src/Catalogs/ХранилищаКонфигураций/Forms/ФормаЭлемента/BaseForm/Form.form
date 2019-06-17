@@ -1764,7 +1764,7 @@
     <name>Группа8</name>
     <id>137</id>
     <items xsi:type="form:FormField">
-      <name>КаталогВыгрузкиВРепозитории</name>
+      <name>ИмяПроектаEDT</name>
       <id>134</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -1773,11 +1773,11 @@
       </userVisible>
       <dataPath xsi:type="form:MultiLanguageDataPath">
         <paths xsi:type="form:DataPath">
-          <segments>Объект.КаталогВыгрузкиВРепозитории</segments>
+          <segments>Объект.ИмяПроектаEDT</segments>
         </paths>
       </dataPath>
       <extendedTooltip>
-        <name>КаталогВыгрузкиВРепозиторииРасширеннаяПодсказка</name>
+        <name>ИмяПроектаEDTРасширеннаяПодсказка</name>
         <id>136</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1792,7 +1792,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>КаталогВыгрузкиВРепозиторииКонтекстноеМеню</name>
+        <name>ИмяПроектаEDTКонтекстноеМеню</name>
         <id>135</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1815,7 +1815,7 @@
         <textEdit>true</textEdit>
         <inputHint>
           <key>ru</key>
-          <value>Относительный путь к каталогу проекта. Может быть именем проекта в EDT или пустым...</value>
+          <value>Подкаталог, в котором располагается проект EDT</value>
         </inputHint>
       </extInfo>
     </items>

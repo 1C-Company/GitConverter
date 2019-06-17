@@ -628,10 +628,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="76a1bac3-27f1-4b26-8d8d-971ea12e9db6">
-    <name>КаталогВыгрузкиВРепозитории</name>
+    <name>ИмяПроектаEDT</name>
     <synonym>
       <key>ru</key>
-      <value>Каталог выгрузки в репозитории</value>
+      <value>Имя проекта EDT</value>
     </synonym>
     <comment></comment>
     <type>
@@ -640,7 +640,7 @@
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Каталог проекта 1C:EDT или относительный путь к каталогу выгрузки конфигурации в репозитории git. Не может быть пустым, если хранилище конвертиируется в формат EDT.</value>
+      <value>Относительный путь к каталогу проекта 1C:EDT в репозитории git. Не может быть пустым.</value>
     </toolTip>
     <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
