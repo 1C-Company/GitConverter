@@ -686,12 +686,15 @@
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Начиная с платформы 8.3.10 возможно использовать выгрузку изменений между версиями - это позволяет существенно ускорить конвертацию. Необходимо использовать &quot;Очереди выполнения&quot; с данной опцией.</value>
+      <value>Начиная с платформы 8.3.10 возможно использовать выгрузку изменений между версиями - это позволяет существенно ускорить конвертацию. Для версий платформы ниже 8.3.15 необходимо использовать &quot;Очереди выполнения&quot; с данной опцией.</value>
     </toolTip>
     <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>

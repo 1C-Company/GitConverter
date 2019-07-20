@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7baca030-c857-412f-b9f4-9ff7897a3c85">
+  <producedTypes>
+    <objectType typeId="d29d7528-d7ec-42ed-93af-f43b3769f832" valueTypeId="845e3361-5a57-496b-a2f5-7f0862af5670"/>
+    <refType typeId="4f067a84-c39b-4d21-a68d-ec02580e94cb" valueTypeId="369155a0-7f98-40b8-8371-362fa0d72389"/>
+    <selectionType typeId="924cf24f-bfb2-4774-9ed0-4f403e5ea58f" valueTypeId="45005a99-c0fc-4568-a422-791042eb39eb"/>
+    <listType typeId="d35d4618-e215-4001-88f5-51febd09f6d5" valueTypeId="13b6984d-a572-495d-ad63-546697a33fd0"/>
+    <managerType typeId="5ec672b5-5967-4d3f-92a8-a7bb751ac845" valueTypeId="03cde6f4-d822-4e06-9a77-36ac25e67205"/>
+  </producedTypes>
+  <name>ХранилищаКонфигураций</name>
+  <comment></comment>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <objectModule>Extended</objectModule>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <searchStringModeOnInputByString>AnyPart</searchStringModeOnInputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
