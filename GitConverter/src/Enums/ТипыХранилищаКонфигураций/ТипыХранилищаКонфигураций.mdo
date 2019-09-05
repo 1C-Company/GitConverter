@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f0ee41e1-6d84-43d6-9568-b7c2bdf25960">
+  <producedTypes>
+    <refType typeId="c62dc6bc-91c6-4563-ba13-acdb5ff82995" valueTypeId="36f9ba24-18c3-4632-a46d-ae29736a3c7d"/>
+    <listType typeId="8b292a05-86c1-49b7-a113-bfa7bfe60f0b" valueTypeId="4e19387a-cf02-48e8-a22f-3e7ae8dc9b7a"/>
+    <managerType typeId="6cde54cc-9800-4e28-9f58-cd1133046f1a" valueTypeId="3d8dc53a-fdbb-4c7e-8a5b-30d5d2bfd0b9"/>
+  </producedTypes>
+  <name>ТипыХранилищаКонфигураций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы хранилища конфигураций</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8239ad9f-93d6-4d0f-b414-41b79884c0a4">
+    <name>Конфигурация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конфигурация</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="efa8432b-296c-4e0d-bf3a-cd69e7e8f5f2">
+    <name>Расширение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расширение</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -55,4 +55,5 @@
   <catalogs>Catalog.ВерсииХранилища</catalogs>
   <catalogs>Catalog.КопииХранилищКонфигурации</catalogs>
   <catalogs>Catalog.ХранилищаКонфигураций</catalogs>
+  <enums>Enum.ТипыХранилищаКонфигураций</enums>
 </mdclass:Configuration>
