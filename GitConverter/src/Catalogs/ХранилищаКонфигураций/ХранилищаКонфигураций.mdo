@@ -831,7 +831,7 @@
       <types>CatalogRef.ХранилищаКонфигураций</types>
       <types>String</types>
       <stringQualifiers>
-        <length>10</length>
+        <length>255</length>
       </stringQualifiers>
     </type>
     <fillChecking>ShowError</fillChecking>
