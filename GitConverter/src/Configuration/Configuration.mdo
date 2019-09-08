@@ -98,6 +98,7 @@
   <catalogs>Catalog.ХранилищаКонфигураций</catalogs>
   <enums>Enum.ОперацииОчереди</enums>
   <enums>Enum.СостоянияВерсии</enums>
+  <enums>Enum.ТипыХранилищаКонфигураций</enums>
   <reports>Report.СкоростьКонвертации</reports>
   <dataProcessors>DataProcessor.РегламентныеИФоновыеЗадания</dataProcessors>
   <dataProcessors>DataProcessor.КонвертацияВФорматEDT</dataProcessors>
