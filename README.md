@@ -43,6 +43,13 @@ ring edt workspace export --workspace-location "${PWD}/w" --project "${PWD}/GitC
 1cv8 CREATEINFOBASE File=${PWD}/db
 1cv8 DESIGNER /WA- /DisableStartupDialogs /IBConnectionString File="${PWD}/db" /LoadConfigFromFiles "${PWD}/xml" /UpdateDBCfg
 1cv8 DESIGNER /WA- /DisableStartupDialogs /IBConnectionString File="${PWD}/db" /CreateDistributionFiles -cffile "${PWD}/1cv8.cf"
+# Экспорт расшерений
+ring edt workspace export --workspace-location "${PWD}/w" --project "${PWD}/GitConverter/GitConverter.ВерсииПлатформыХранилища" --configuration-files "${PWD}/xml_e/ВерсииПлатформыХранилища"
+ring edt workspace export --workspace-location "${PWD}/w" --project "${PWD}/GitConverter/GitConverter.ОптимизацияВыгрузки8315" --configuration-files "${PWD}/xml_e/ОптимизацияВыгрузки8315"
+1cv8 DESIGNER /WA- /DisableStartupDialogs /IBConnectionString File="${PWD}/db" /LoadConfigFromFiles "${PWD}/xml_e" -AllExtensions /UpdateDBCfg
+# Сохранение расширений
+1cv8 DESIGNER /WA- /DisableStartupDialogs /IBConnectionString File="${PWD}/db" /DumpCfg "${PWD}/RepositoryPlatformVersions.cfe" -Extension "ВерсииПлатформыХранилища"
+1cv8 DESIGNER /WA- /DisableStartupDialogs /IBConnectionString File="${PWD}/db" /DumpCfg "${PWD}/DumpOptimization8315.cfe" -Extension "ОптимизацияВыгрузки8315"
 ```
 
 Выполните команды в Windows, указав корректный путь к версии 1С:
@@ -53,6 +60,13 @@ ring edt workspace export --workspace-location "%CD%/w" --project "%CD%/GitConve
 "C:\Program files\1cv8\8.3.12.1714\bin\1cv8" CREATEINFOBASE File=%CD%/db
 "C:\Program files\1cv8\8.3.12.1714\bin\1cv8" DESIGNER /WA- /DisableStartupDialogs /IBConnectionString File="%CD%/db" /LoadConfigFromFiles "%CD%/xml" /UpdateDBCfg
 "C:\Program files\1cv8\8.3.12.1714\bin\1cv8" DESIGNER /WA- /DisableStartupDialogs /IBConnectionString File="%CD%/db" /CreateDistributionFiles -cffile "%CD%/1cv8.cf"
+:: Экспорт расшерений
+ring edt workspace export --workspace-location "%CD%/w" --project "%CD%/GitConverter/GitConverter.ВерсииПлатформыХранилища" --configuration-files "%CD%/xml_e/ВерсииПлатформыХранилища"
+ring edt workspace export --workspace-location "%CD%/w" --project "%CD%/GitConverter/GitConverter.ОптимизацияВыгрузки8315" --configuration-files "%CD%/xml_e/ОптимизацияВыгрузки8315"
+"C:\Program files\1cv8\8.3.12.1714\bin\1cv8" DESIGNER /WA- /DisableStartupDialogs /IBConnectionString File="%CD%/db" /LoadConfigFromFiles "%CD%/xml_e" -AllExtensions /UpdateDBCfg
+:: Сохранение расширений
+"C:\Program files\1cv8\8.3.12.1714\bin\1cv8" DESIGNER /WA- /DisableStartupDialogs /IBConnectionString File="%CD%/db" /DumpCfg "%CD%/RepositoryPlatformVersions.cfe" -Extension "ВерсииПлатформыХранилища"
+"C:\Program files\1cv8\8.3.12.1714\bin\1cv8" DESIGNER /WA- /DisableStartupDialogs /IBConnectionString File="%CD%/db" /DumpCfg "%CD%/DumpOptimization8315.cfe" -Extension "ОптимизацияВыгрузки8315"
 ```
 
 ## Начальная настройка
