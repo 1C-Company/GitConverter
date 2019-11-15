@@ -929,7 +929,7 @@
         <textEdit>true</textEdit>
         <inputHint>
           <key>ru</key>
-          <value>Общий каталог в который будут выгражться все версии</value>
+          <value>Общий каталог в который будут выгружаться все версии</value>
         </inputHint>
       </extInfo>
     </items>
