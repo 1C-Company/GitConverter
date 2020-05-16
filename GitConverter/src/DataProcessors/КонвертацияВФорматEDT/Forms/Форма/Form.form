@@ -261,7 +261,7 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
-    <name>ХранилищеКаталогВыгрузкиВРепозитории</name>
+    <name>ХранилищеИмяПроектаEDT</name>
     <id>21</id>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -270,11 +270,11 @@
     </userVisible>
     <dataPath xsi:type="form:MultiLanguageDataPath">
       <paths xsi:type="form:DataPath">
-        <segments>Хранилище.КаталогВыгрузкиВРепозитории</segments>
+        <segments>Хранилище.ИмяПроектаEDT</segments>
       </paths>
     </dataPath>
     <extendedTooltip>
-      <name>ХранилищеКаталогВыгрузкиВРепозиторииРасширеннаяПодсказка</name>
+      <name>ХранилищеИмяПроектаEDTРасширеннаяПодсказка</name>
       <id>23</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -289,7 +289,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>ХранилищеКаталогВыгрузкиВРепозиторииКонтекстноеМеню</name>
+      <name>ХранилищеИмяПроектаEDTКонтекстноеМеню</name>
       <id>22</id>
       <visible>true</visible>
       <enabled>true</enabled>

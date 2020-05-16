@@ -21,7 +21,7 @@
   <defaultRoles>Role.АдминистраторСистемы</defaultRoles>
   <defaultRoles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</defaultRoles>
   <vendor>Фирма &quot;1С&quot;</vendor>
-  <version>1.0.6.1</version>
+  <version>1.0.7.3</version>
   <updateCatalogAddress>http://downloads.v8.1c.ru/tmplts/</updateCatalogAddress>
   <includeHelpInContents>true</includeHelpInContents>
   <help>
@@ -98,6 +98,7 @@
   <catalogs>Catalog.ХранилищаКонфигураций</catalogs>
   <enums>Enum.ОперацииОчереди</enums>
   <enums>Enum.СостоянияВерсии</enums>
+  <enums>Enum.ТипыХранилищаКонфигураций</enums>
   <reports>Report.СкоростьКонвертации</reports>
   <dataProcessors>DataProcessor.РегламентныеИФоновыеЗадания</dataProcessors>
   <dataProcessors>DataProcessor.КонвертацияВФорматEDT</dataProcessors>

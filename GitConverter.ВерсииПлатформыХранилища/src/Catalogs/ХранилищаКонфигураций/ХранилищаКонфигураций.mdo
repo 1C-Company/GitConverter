@@ -285,7 +285,7 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="db357664-10ca-4d49-b20e-4d24b922a137">
-    <name>КаталогВыгрузкиВРепозитории</name>
+    <name>ИмяПроектаEDT</name>
     <comment></comment>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -470,6 +470,61 @@
       <types>String</types>
       <stringQualifiers>
         <length>10</length>
+      </stringQualifiers>
+    </type>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="10c1897e-2dd9-401e-b912-93ed226befa0">
+    <name>ОтключитьЛогирование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a793db3c-ed52-467b-8a85-2e60e766817a">
+    <name>ТипХранилища</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>EnumRef.ТипыХранилищаКонфигураций</types>
+    </type>
+    <fillChecking>ShowError</fillChecking>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1f657733-4272-427e-8e85-90bb1faae9eb">
+    <name>БазовыйПроект</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>AnyRef</types>
+    </type>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="dea9b27b-18c1-4d52-b2bc-e3beb8e6be1f">
+    <name>ИмяРасширения</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
       </stringQualifiers>
     </type>
     <fillChecking>ShowError</fillChecking>
