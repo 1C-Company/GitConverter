@@ -43,7 +43,7 @@ ring edt workspace export --workspace-location "${PWD}/w" --project "${PWD}/GitC
 1cv8 CREATEINFOBASE File=${PWD}/db
 1cv8 DESIGNER /WA- /DisableStartupDialogs /IBConnectionString File="${PWD}/db" /LoadConfigFromFiles "${PWD}/xml" /UpdateDBCfg
 1cv8 DESIGNER /WA- /DisableStartupDialogs /IBConnectionString File="${PWD}/db" /CreateDistributionFiles -cffile "${PWD}/1cv8.cf"
-# Экспорт расшерений
+# Экспорт расширений
 ring edt workspace export --workspace-location "${PWD}/w" --project "${PWD}/GitConverter/GitConverter.ВерсииПлатформыХранилища" --configuration-files "${PWD}/xml_e/ВерсииПлатформыХранилища"
 ring edt workspace export --workspace-location "${PWD}/w" --project "${PWD}/GitConverter/GitConverter.ОптимизацияВыгрузки8315" --configuration-files "${PWD}/xml_e/ОптимизацияВыгрузки8315"
 1cv8 DESIGNER /WA- /DisableStartupDialogs /IBConnectionString File="${PWD}/db" /LoadConfigFromFiles "${PWD}/xml_e" -AllExtensions /UpdateDBCfg
@@ -60,7 +60,7 @@ ring edt workspace export --workspace-location "%CD%/w" --project "%CD%/GitConve
 "C:\Program files\1cv8\8.3.12.1714\bin\1cv8" CREATEINFOBASE File=%CD%/db
 "C:\Program files\1cv8\8.3.12.1714\bin\1cv8" DESIGNER /WA- /DisableStartupDialogs /IBConnectionString File="%CD%/db" /LoadConfigFromFiles "%CD%/xml" /UpdateDBCfg
 "C:\Program files\1cv8\8.3.12.1714\bin\1cv8" DESIGNER /WA- /DisableStartupDialogs /IBConnectionString File="%CD%/db" /CreateDistributionFiles -cffile "%CD%/1cv8.cf"
-:: Экспорт расшерений
+:: Экспорт расширений
 ring edt workspace export --workspace-location "%CD%/w" --project "%CD%/GitConverter/GitConverter.ВерсииПлатформыХранилища" --configuration-files "%CD%/xml_e/ВерсииПлатформыХранилища"
 ring edt workspace export --workspace-location "%CD%/w" --project "%CD%/GitConverter/GitConverter.ОптимизацияВыгрузки8315" --configuration-files "%CD%/xml_e/ОптимизацияВыгрузки8315"
 "C:\Program files\1cv8\8.3.12.1714\bin\1cv8" DESIGNER /WA- /DisableStartupDialogs /IBConnectionString File="%CD%/db" /LoadConfigFromFiles "%CD%/xml_e" -AllExtensions /UpdateDBCfg
