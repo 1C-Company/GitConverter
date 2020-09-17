@@ -2081,7 +2081,7 @@
       <titleLocation>Right</titleLocation>
       <toolTip>
         <key>ru</key>
-        <value>Используется для импорта в непустой проект, например если хранилище вливается в отдельную ветку EDT, кодга требуется смешанная разработка, но ветка master не в хранилище 1С.</value>
+        <value>Используется, когда производится экспорт из хранилища в уже сущестувующий репозиторий с отличающимся именем проекта</value>
       </toolTip>
       <toolTipRepresentation>Button</toolTipRepresentation>
       <extendedTooltip>
