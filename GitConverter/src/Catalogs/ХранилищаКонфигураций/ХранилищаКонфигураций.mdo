@@ -847,6 +847,19 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="f7513781-ee42-4f42-bef5-0ac62e9d457e">
+    <name>НеЗамещатьФайлПроекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не замещать файл проекта</value>
+    </synonym>
+    <comment>Исплоьзуется, когда производится экспорт из хранилища в уже сущестувующий репозиторий</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="6cc206d4-d733-4a4a-8ed2-adf76440f6af">
     <name>ФормаЭлемента</name>
     <synonym>
