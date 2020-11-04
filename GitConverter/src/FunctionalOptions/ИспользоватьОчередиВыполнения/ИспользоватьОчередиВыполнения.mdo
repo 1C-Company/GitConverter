@@ -11,7 +11,6 @@
   <content>Catalog.ОчередиВыполнения</content>
   <content>Enum.ОперацииОчереди</content>
   <content>Catalog.ХранилищаКонфигураций.Attribute.ОбрабатыватьВсеОчереди</content>
-  <content>Catalog.ХранилищаКонфигураций.Attribute.ВыгружатьИзменения</content>
   <content>Catalog.ВерсииХранилища.Attribute.ВыгрузкаИзменений</content>
   <content>Catalog.ХранилищаКонфигураций.Attribute.ЗапретитьИспользованиеОбщихОчередей</content>
 </mdclass:FunctionalOption>

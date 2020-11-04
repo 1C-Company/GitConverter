@@ -111,6 +111,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
   <help>
     <pages>
       <lang>ru</lang>
@@ -308,6 +309,10 @@
     <type>
       <types>Boolean</types>
     </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Позволяет удалять сразу после коммита каталог временных данных, необходимых для подготовки версии конвертации.</value>
+    </toolTip>
     <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -380,7 +385,7 @@
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Адрес репозитория Git на сервере</value>
+      <value>Адрес репозитория Git на сервере. Возможно указание http, https или ssh адреса.  Для варианта SSH авторизации необходимо настроить авторизацию на Git-сервер для пользователя ОС от имени которого запущен сервер 1С.</value>
     </toolTip>
     <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -524,7 +529,7 @@
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Минимальное количество метаданных при загрузке позволяет контролировать что 1С:Конфигуратор выгрузил все без ошибок и падений.</value>
+      <value>Минимальное количество метаданных при загрузке позволяет контролировать что 1С:Конфигуратор выгрузил все без ошибок и падений. Рекомендуется указывать количество в размере 90-95% от количества в в текущей версии.</value>
     </toolTip>
     <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -547,7 +552,7 @@
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Флаг разрешения работы для всех очередей.</value>
+      <value>Флаг разрешения работы для всех очередей. Позволяет включать и отключать обработку очередей по текущей настройке конвертации.</value>
     </toolTip>
     <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -566,6 +571,10 @@
     <type>
       <types>Boolean</types>
     </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Будут использованы очереди только для текущего хранилища. Общие очереди выполняют обработку версий хранилища в порядке даты создания.</value>
+    </toolTip>
     <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -619,10 +628,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="76a1bac3-27f1-4b26-8d8d-971ea12e9db6">
-    <name>КаталогВыгрузкиВРепозитории</name>
+    <name>ИмяПроектаEDT</name>
     <synonym>
       <key>ru</key>
-      <value>Каталог выгрузки в репозитории</value>
+      <value>Имя проекта EDT</value>
     </synonym>
     <comment></comment>
     <type>
@@ -631,11 +640,12 @@
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Относительный путь к каталогу выгрузки конфигурации в репозитории git. Может быть пустым.</value>
+      <value>Имя проекта EDT или относительный путь к каталогу проекта 1C:EDT в репозитории git,  где последний сегмент пути является именем проекта. Не может быть пустым.</value>
     </toolTip>
     <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:StringValue">
       <value></value>
     </fillValue>
@@ -676,12 +686,15 @@
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Начиная с платформы 8.3.10 возможно использовать выгрузку изменений между версиями.</value>
+      <value>Начиная с платформы 8.3.10 возможно использовать выгрузку изменений между версиями - это позволяет существенно ускорить конвертацию. Для версий платформы ниже 8.3.15 необходимо использовать &quot;Очереди выполнения&quot; с данной опцией.</value>
     </toolTip>
     <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -707,6 +720,133 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="02dee9a8-9e7c-4ecd-8dc5-46666fa8bb52">
+    <name>КонвертироватьВФорматEDT</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конвертировать в формат EDT</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Рекомендуется использовать конвертацию в формат 1C:EDT. Для переключения устаревших настроек воспользуйтесь обработкой &quot;Конвертация в формат EDT&quot;</value>
+    </toolTip>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="40bd28b0-6e2d-452e-bf70-d898a56769ec">
+    <name>ДобавлятьМеткиСВерсиейКонфигурации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Добавлять метки с версией конфигурации</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>При изменении версии конфигурации, например с версии 1.0.0.1 -> 1.0.0.2, на последний коммит с версией 1.0.0.1 будет добавлен тег &quot;v1.0.0.1&quot;.</value>
+    </toolTip>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3fe44b23-5143-459d-9549-06f56e2c70db">
+    <name>ВерсияEDT</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия EDT</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Компонента ring, в случае если на сервере конвертации хранилища установлено несколько версий EDT, требует явного указания версии. После указания версии во всех командах ring edt будет установлен номер версии.</value>
+    </toolTip>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0e1eaf6c-45d0-4b1c-bc03-734a8d8d59bd">
+    <name>ОтключитьЛогирование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отключить логирование</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Позволяет отключить логирование всех действий по проекту в файлы логов. Снижает нагрузку на диск, но усложняет расследование неполадок.</value>
+    </toolTip>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3cf31fb7-d51a-4b33-b104-dde96a56cd9e">
+    <name>ТипХранилища</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип хранилища</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыХранилищаКонфигураций</types>
+    </type>
+    <fillChecking>ShowError</fillChecking>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ТипыХранилищаКонфигураций.EnumValue.Конфигурация</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c5c98a15-d82d-4c4b-ac45-5f7c1b6d0f13">
+    <name>ИмяРасширения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя расширения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="53717675-a1d7-499f-91bd-89e9d50bf407">
+    <name>БазовыйПроект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Базовый проект</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ХранилищаКонфигураций</types>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameters>
+      <name>Отбор.ТипХранилища</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>Enum.ТипыХранилищаКонфигураций.EnumValue.Конфигурация</value>
+      </value>
+    </choiceParameters>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="6cc206d4-d733-4a4a-8ed2-adf76440f6af">
     <name>ФормаЭлемента</name>
     <synonym>
@@ -714,6 +854,12 @@
       <value>Форма элемента</value>
     </synonym>
     <comment></comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -727,4 +873,12 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <templates uuid="b6f898af-182b-43d9-aac4-567daaf55704">
+    <name>ПустоеРасширение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пустое расширение</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
 </mdclass:Catalog>

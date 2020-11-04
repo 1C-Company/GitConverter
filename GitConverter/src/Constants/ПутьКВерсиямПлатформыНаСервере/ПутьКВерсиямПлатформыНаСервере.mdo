@@ -19,8 +19,15 @@
     <key>ru</key>
     <value>Шаблон пути к исполняемым файлам платформы на сервере по версиям.</value>
   </explanation>
+  <toolTip>
+    <key>ru</key>
+    <value>Заполните константу &quot;Путь к версиям платформы на сервере&quot;, где располагаются файлы Конфигуратора 1cv8(.exe) в формате: `C:\Program files (x86)\1cv8\%ВерсияПлатформы%\bin`
+где в параметр %ВерсияПлатформы% - будет подставлена текущая версия хранилища из настроек.&#xD;
+Параметр %ВерсияПлатформы% можно не указывать, если конвертация выполняется на сервере под управлением ОС Linux и на сервере установлена только 1 версия платформы.</value>
+  </toolTip>
   <mask></mask>
   <minValue xsi:type="core:UndefinedValue"/>
   <maxValue xsi:type="core:UndefinedValue"/>
+  <fillChecking>ShowError</fillChecking>
   <dataLockControlMode>Managed</dataLockControlMode>
 </mdclass:Constant>

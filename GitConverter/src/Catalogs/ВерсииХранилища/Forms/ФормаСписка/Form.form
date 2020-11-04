@@ -35,6 +35,7 @@
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
@@ -724,6 +725,35 @@
           <placementArea>UserCmds</placementArea>
         </items>
         <items xsi:type="form:Button">
+          <name>СписокКонтекстноеМенюУстановитьСостояниеВерсияПомещена</name>
+          <id>89</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>СписокКонтекстноеМенюУстановитьСостояниеВерсияПомещенаРасширеннаяПодсказка</name>
+            <id>90</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <commandName>Form.Command.УстановитьСостояниеВерсияПомещена</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+        </items>
+        <items xsi:type="form:Button">
           <name>СписокКонтекстноеМенюСброситьСостояние</name>
           <id>87</id>
           <visible>true</visible>
@@ -1156,6 +1186,7 @@
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
@@ -1249,6 +1280,7 @@
       <united>true</united>
       <showTitle>true</showTitle>
       <throughAlign>Auto</throughAlign>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <commandBarLocation>None</commandBarLocation>
@@ -1300,8 +1332,6 @@
 	СправочникВерсииХранилища.ДатаСоздания,
 	СправочникВерсииХранилища.Пользователь,
 	СправочникВерсииХранилища.Комментарий,
-	СправочникВерсииХранилища.КаталогФайловКонфигурации,
-	СправочникВерсииХранилища.КаталогИБ,
 	СправочникВерсииХранилища.Состояние,
 	СправочникВерсииХранилища.КаталогВременныхФайлов,
 	СправочникВерсииХранилища.Источник,
@@ -1378,6 +1408,7 @@
         <name>УстановитьСостояниеВерсияВыгружена</name>
       </handler>
     </action>
+    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>УстановитьСостояниеВерсияПолучена</name>
@@ -1398,6 +1429,7 @@
         <name>УстановитьСостояниеВерсияПолучена</name>
       </handler>
     </action>
+    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>УстановитьСостояниеМетаданныеЗагружены</name>
@@ -1418,6 +1450,7 @@
         <name>УстановитьСостояниеМетаданныеЗагружены</name>
       </handler>
     </action>
+    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>СброситьСостояние</name>
@@ -1438,6 +1471,24 @@
         <name>СброситьСостояние</name>
       </handler>
     </action>
+    <currentRowUse>DontUse</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>УстановитьСостояниеВерсияПомещена</name>
+    <title>
+      <key>ru</key>
+      <value>Установить состояние &quot;Версия помещена&quot;</value>
+    </title>
+    <id>5</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>УстановитьСостояниеВерсияПомещена</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <commandInterface>
     <navigationPanel/>

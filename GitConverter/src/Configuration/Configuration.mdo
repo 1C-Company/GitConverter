@@ -13,7 +13,7 @@
   <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="f7f09b5c-9e29-4f8c-9d24-a2523dcf02a5"/>
   <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="eb8fc40a-8eb0-4025-9521-b43d004eeb18"/>
   <namePrefix></namePrefix>
-  <configurationExtensionCompatibilityMode>8.3.11</configurationExtensionCompatibilityMode>
+  <configurationExtensionCompatibilityMode>8.3.12</configurationExtensionCompatibilityMode>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
@@ -21,8 +21,9 @@
   <defaultRoles>Role.АдминистраторСистемы</defaultRoles>
   <defaultRoles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</defaultRoles>
   <vendor>Фирма &quot;1С&quot;</vendor>
-  <version>1.0.4.1</version>
+  <version>1.0.7.3</version>
   <updateCatalogAddress>http://downloads.v8.1c.ru/tmplts/</updateCatalogAddress>
+  <includeHelpInContents>true</includeHelpInContents>
   <help>
     <pages>
       <lang>ru</lang>
@@ -39,7 +40,7 @@
   </detailedInformation>
   <copyright>
     <key>ru</key>
-    <value>Copyright © ООО &quot;1С-Софт&quot;</value>
+    <value>Copyright © ООО &quot;1С-Софт&quot;, Все права защищены. Эта программа и сопроводительные материалы предоставляются в соответствии с условиями лицензии Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) Текст лицензии доступен по ссылке: https://creativecommons.org/licenses/by-sa/4.0/legalcode</value>
   </copyright>
   <vendorInformationAddress>
     <key>ru</key>
@@ -53,7 +54,7 @@
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <modalityUseMode>DontUse</modalityUseMode>
   <synchronousExtensionAndAddInCallUseMode>DontUse</synchronousExtensionAndAddInCallUseMode>
-  <compatibilityMode>8.3.10</compatibilityMode>
+  <compatibilityMode>8.3.12</compatibilityMode>
   <languages uuid="ed426b54-96a4-48ad-95c4-9e10c774ca73">
     <name>Русский</name>
     <synonym>
@@ -86,7 +87,9 @@
   <scheduledJobs>ScheduledJob.ВыгрузкаВерсииИзКопииХранилища</scheduledJobs>
   <scheduledJobs>ScheduledJob.КонвертацияХранилища</scheduledJobs>
   <scheduledJobs>ScheduledJob.ОбработкаОчереди</scheduledJobs>
+  <functionalOptions>FunctionalOption.ИспользоватьНесколькоВерсийEDT</functionalOptions>
   <functionalOptions>FunctionalOption.ИспользоватьОчередиВыполнения</functionalOptions>
+  <constants>Constant.ИспользоватьНесколькоВерсийEDT</constants>
   <constants>Constant.ИспользоватьОчередиВыполнения</constants>
   <constants>Constant.ПутьКВерсиямПлатформыНаСервере</constants>
   <catalogs>Catalog.ВерсииХранилища</catalogs>
@@ -95,6 +98,7 @@
   <catalogs>Catalog.ХранилищаКонфигураций</catalogs>
   <enums>Enum.ОперацииОчереди</enums>
   <enums>Enum.СостоянияВерсии</enums>
+  <enums>Enum.ТипыХранилищаКонфигураций</enums>
   <reports>Report.СкоростьКонвертации</reports>
   <dataProcessors>DataProcessor.РегламентныеИФоновыеЗадания</dataProcessors>
   <dataProcessors>DataProcessor.КонвертацияВФорматEDT</dataProcessors>

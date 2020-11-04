@@ -2,7 +2,9 @@
 <mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ad6a4fc9-bac6-4f5c-8c58-450a2cb5e034">
   <producedTypes>
     <objectType typeId="643f8ffd-75e5-4fb8-a7d6-3250af2cc868" valueTypeId="e07d838a-994f-46e9-bb0c-1e5d74669e9e"/>
-    <refType typeId="906f524f-e5cf-473a-a939-93121d2eec7a" valueTypeId="e98ee241-53a1-4a97-b73c-4d835ea0954b"/>
+    <refType typeId="906f524f-e5cf-473a-a939-93121d2eec7a" valueTypeId="e98ee241-53a1-4a97-b73c-4d835ea0954b">
+      <emptyRef/>
+    </refType>
     <selectionType typeId="23e9436d-e81e-4f0a-9c0b-fee2b16e1955" valueTypeId="a3397717-52ea-4b6f-8c02-d46f2ec64b21"/>
     <listType typeId="7964f780-4b3a-4225-a34f-db5cbc46aef3" valueTypeId="08e80b8b-8ac3-4d8c-9be6-fede1fe58e9a"/>
     <managerType typeId="449e5392-42ca-44cd-acaf-202688ae4e79" valueTypeId="0bb0e587-6b7b-4d27-9ee2-cd054e64083a"/>
@@ -114,6 +116,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
   <help>
     <pages>
       <lang>ru</lang>
