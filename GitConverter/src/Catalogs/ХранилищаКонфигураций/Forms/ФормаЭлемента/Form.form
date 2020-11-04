@@ -3869,13 +3869,14 @@
     <id>7</id>
     <toolTip>
       <key>ru</key>
-      <value>Установить адрес репозитория git</value>
+      <value>Установить адрес серверного репозитория git в локальную копию репозитория. При этом будет выполнено получение данных с сервера (git fetch) и попытка установки слежния локальной ветки за серверной.</value>
     </toolTip>
     <use>
       <common>true</common>
     </use>
+    <shortcut>Ctrl+S</shortcut>
     <picture xsi:type="core:PictureRef">
-      <picture>StdPicture.CreateInitialImage</picture>
+      <picture>StdPicture.DataCompositionNewGroup</picture>
     </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
