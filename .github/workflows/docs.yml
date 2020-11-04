@@ -1,0 +1,22 @@
+name: Documentation
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  update-wiki:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      
+      - name: Sync Wiki
+        uses: joeizzard/action-wiki-sync@v1
+        with:
+          username: 1C-Company
+          access_token: ${{ secrets.GITHUB_TOKEN }}
+          wiki_folder: docs
+          commit_username: 'GitConverter'
+          commit_email: 'GitConverter@users.noreply.github.com'
+          commit_message: 'action: wiki sync'
