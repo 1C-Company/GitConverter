@@ -10,6 +10,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - name: Fix links for Wiki engine
+        run: |
+          mv -f ./docs/Readme.md ./docs/Home.md
+          find ./docs/ -type f -name "*.md" -exec sed -i 's/(Readme.md)/(Home)/g' {} \;
+          find ./docs/ -type f -name "*.md" -exec sed -i 's/.md#/#/g' {} \;
+          find ./docs/ -type f -name "*.md" -exec sed -i 's/.md)/)/g' {} \;
       
       - name: Sync Wiki
         uses: joeizzard/action-wiki-sync@v1
