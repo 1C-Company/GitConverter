@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: Fix links for Wiki engine
         run: |
-          mv -f ./docs/Readme.md ./docs/Home.md
+          mv -f ./docs/Readme.md ./docs/_Sidebar.md
           find ./docs/ -type f -name "*.md" -exec sed -i 's/.md#/#/g' {} \;
           find ./docs/ -type f -name "*.md" -exec sed -i 's/.md)/)/g' {} \;
       
