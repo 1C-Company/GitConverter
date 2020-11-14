@@ -1,0 +1,10 @@
+#Translations for: src/InformationRegisters/ИнформацияПользователей/ИнформацияПользователей.mdo
+
+Dimension.Пользователь.Synonym=User
+Dimension.Пользователь.ToolTip=Repository user name
+Dimension.Хранилище.Synonym=Storage
+Resource.Email.Synonym=Email
+Resource.Email.ToolTip=The E-mail of git user
+Resource.Имя.Synonym=Name
+Resource.Имя.ToolTip=The name of git user
+Synonym=User information

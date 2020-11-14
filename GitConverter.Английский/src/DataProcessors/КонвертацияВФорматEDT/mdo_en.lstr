@@ -1,0 +1,5 @@
+#Translations for: src/DataProcessors/КонвертацияВФорматEDT/КонвертацияВФорматEDT.mdo
+
+Attribute.ВерсияEDT.Synonym=EDT Version
+Form.Форма.Synonym=Form
+Synonym=Convertion into EDTFormat

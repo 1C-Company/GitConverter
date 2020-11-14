@@ -1,0 +1,11 @@
+#Translations for: src/Enums/СостоянияВерсии/СостоянияВерсии.mdo
+
+EnumValue.ВерсияВыгружена.Synonym=Version dumped
+EnumValue.ВерсияПолучена.Synonym=Version received
+EnumValue.ВерсияПомещена.Synonym=Version commited
+EnumValue.ВыгрузкаВерсии.Synonym=Version dumping
+EnumValue.ЗагрузкаМетаданных.Synonym=Metadata load
+EnumValue.МетаданныеЗагружены.Synonym=Metadata loaded
+EnumValue.НачалоКоммита.Synonym=Commit beginning
+EnumValue.ПолучениеВерсии.Synonym=Getting version
+Synonym=Version states

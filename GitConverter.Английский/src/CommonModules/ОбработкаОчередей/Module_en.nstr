@@ -1,0 +1,4 @@
+#Translations for: src/CommonModules/ОбработкаОчередей/Module.bsl
+
+Method.ЗапуститьОбработкуОчередиВФоне.Var.Наименование.NStr.Обработка\ очереди\:\ %Очередь%.Lines=Queue processing\: %Очередь%
+Method.ОбработатьОчередь.NStr.Обработка\ версии\ в\ очереди\:.Lines=Version processing in queue\:

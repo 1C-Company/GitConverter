@@ -1,0 +1,4 @@
+#Translations for: src/Catalogs/ВерсииХранилища/Forms/ФормаСписка/Module.bsl
+
+Method.УстановитьСостояниеВерсияПомещена.NStr.Уверен,\ установить\ "Версия\ помещена".Lines=Sure, set "Version commited"
+Method.УстановитьСостояниеВерсияПомещена.Var.ТекстВопроса.NStr.Изменения\ по\ версиям\ не\ будут\ отражены\ в\ репозитории\.\nВы\ уверены,\ что\ необходимо\ установить\ состояние\ "Версия\ помещена"?.Lines=Changes by versions will not be reflected in the repository.\n Are you sure you need to set "Version commit"?

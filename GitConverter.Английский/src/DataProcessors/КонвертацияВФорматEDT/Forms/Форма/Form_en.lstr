@@ -1,0 +1,31 @@
+#Translations for: src/DataProcessors/КонвертацияВФорматEDT/Forms/Форма/Form.form
+
+Attribute.email.Title=Email
+Attribute.ВерсияПроектаEDT.Title=
+Attribute.ВыполнитьPushПослеКонвертации.Title=
+Attribute.ВыполнитьПереносВКаталогПроекта.Title=
+Attribute.ИмяПользователя.Title=Username
+Attribute.ИмяПроектаEDT.Title=
+Attribute.ИмяФайлаКомандыGit.Title=
+Attribute.ИмяФайлаКомментария.Title=
+Attribute.ИмяФайлаЛога.Title=
+Attribute.КаталогВыгрузкиВерсий.Title=Version dump directory
+Attribute.Комментарий.Title=Comment
+Attribute.ОтключитьКоммиты.Title=
+Attribute.ОтключитьОчереди.Title=Disable queues
+Attribute.ОтключитьРегламентныеЗадания.Title=
+Attribute.ПутьКПроектуEDT.Title=
+Attribute.ПутьКФайламПроектаEDT.Title=
+Attribute.РабочийКаталогEDT.Title=
+Attribute.Хранилище.Title=Storage
+Command.КонвертироватьВФорматEDT.Title=Convert into EDTFormat
+Item.ВерсияПроектаEDT.ToolTip=
+Item.ВыполнитьПереносВКаталогПроекта.ToolTip=
+Item.Декорация1.Title=
+Item.Декорация2.Title=
+Item.Декорация2.ToolTip=
+Item.ИмяПроектаEDT.InputHint=
+Item.ПараметрыКоммитаКонвертации.Title=
+Item.ПутьКПроектуEDT.InputHint=
+Item.ПутьКФайламПроектаEDT.InputHint=
+Item.РабочийКаталогEDT.InputHint=

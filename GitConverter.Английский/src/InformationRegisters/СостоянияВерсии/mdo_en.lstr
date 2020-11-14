@@ -1,0 +1,6 @@
+#Translations for: src/InformationRegisters/СостоянияВерсии/СостоянияВерсии.mdo
+
+Dimension.ВерсияХранилища.Synonym=Repository version
+Resource.Состояние.Synonym=Status
+StandardAttribute.Period.Synonym=Date
+Synonym=Version states

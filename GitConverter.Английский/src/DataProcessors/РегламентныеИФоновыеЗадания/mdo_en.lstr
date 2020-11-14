@@ -1,0 +1,7 @@
+#Translations for: src/DataProcessors/РегламентныеИФоновыеЗадания/РегламентныеИФоновыеЗадания.mdo
+
+Command.РегламентныеИФоновыеЗадания.Synonym=Scheduled and background jobs
+Form.РегламентноеЗадание.Synonym=Scheduled job
+Form.РегламентныеИФоновыеЗадания.Synonym=Scheduled and background jobs
+Form.ФоновоеЗадание.Synonym=Background job
+Synonym=Scheduled and background jobs

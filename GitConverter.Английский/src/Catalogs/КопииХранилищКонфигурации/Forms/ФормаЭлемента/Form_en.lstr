@@ -1,0 +1,19 @@
+#Translations for: src/Catalogs/КопииХранилищКонфигурации/Forms/ФормаЭлемента/Form.form
+
+Attribute.ВыгружатьВОтдельныйКаталог.Title=Dump to a separate directory
+Attribute.ДругойПользователь.Title=Another user
+Attribute.ИмяФайлаЛога.Title=Log file name
+Attribute.Расписание.Title=Schedule
+Attribute.РасписаниеСтрокой.Title=Timetable as a string
+Attribute.РегламентноеЗаданиеИспользуется.Title=Run on schedule
+Item.Адрес.Title=Address of repository copy
+Item.Владелец.Title=Configuration repository
+Item.ГруппаВерсии.Title=Version group
+Item.ГруппаВерсии.ToolTip=Version group
+Item.ГруппаРегламентныйЗапуск.Title=Group routine run
+Item.ГруппаРегламентныйЗапуск.ToolTip=Group routine run
+Item.ИмяФайлаЛога.Title=Log
+Item.ИмяФайлаЛога.ToolTip=The log file name of repository convertion. Log of each revieved version to IB from the copy of repository can be open from the form of the appropriate version.
+Item.ПарольПользователяХранилища.Title=Password
+Item.ПерваяВерсия.Title=Contains version with
+Item.ПоследняяВерсия.Title=to

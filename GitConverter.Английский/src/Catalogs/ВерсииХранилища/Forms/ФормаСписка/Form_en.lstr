@@ -1,0 +1,13 @@
+#Translations for: src/Catalogs/ВерсииХранилища/Forms/ФормаСписка/Form.form
+
+Command.СброситьСостояние.Title=Reset state
+Command.СброситьСостояние.ToolTip=Reset state
+Command.УстановитьСостояниеВерсияВыгружена.Title=Set state "Version dumped"
+Command.УстановитьСостояниеВерсияВыгружена.ToolTip=Set state version dumped
+Command.УстановитьСостояниеВерсияПолучена.Title=Set state "Version received"
+Command.УстановитьСостояниеВерсияПолучена.ToolTip=Set state version received
+Command.УстановитьСостояниеВерсияПомещена.Title=Set state "Version commited"
+Command.УстановитьСостояниеМетаданныеЗагружены.Title=Set state "Metadata loaded"
+Command.УстановитьСостояниеМетаданныеЗагружены.ToolTip=Set state Metadata loaded
+Item.ГруппаКомментарий.Title=Comment
+Item.СписокКомпоновщикНастроекПользовательскиеНастройки.Title=Custom settings group

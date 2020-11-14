@@ -1,0 +1,13 @@
+#Translations for: src/Catalogs/КопииХранилищКонфигурации/КопииХранилищКонфигурации.mdo
+
+Attribute.Адрес.Synonym=Location
+Attribute.ИмяПользователяХранилища.Synonym=Repository user name
+Attribute.КаталогВыгрузкиВерсий.Synonym=Version dump directory
+Attribute.ПарольПользователяХранилища.Synonym=Repository user password
+Attribute.ПерваяВерсия.Synonym=First version
+Attribute.ПоследняяВерсия.Synonym=Last version
+Attribute.РегламентноеЗадание.Synonym=Scheduled job
+Form.ФормаЭлемента.Synonym=Item form
+ObjectPresentation=Configuration repository сopy
+StandardAttribute.Owner.Synonym=Storage
+Synonym=Configuration repository copies

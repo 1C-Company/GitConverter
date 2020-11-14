@@ -1,0 +1,11 @@
+#Translations for: src/Catalogs/ОчередиВыполнения/Forms/ФормаЭлемента/Form.form
+
+Attribute.Расписание.Title=Schedule
+Attribute.РасписаниеСтрокой.Title=Timetable as a string
+Attribute.РегламентноеЗаданиеИспользуется.Title=Run on schedule
+Attribute.ТипОчереди.Title=Queue type
+Command.ЗапуститьОбработкуОчереди.Title=Run queue processing
+Item.ГруппаРегламентныйЗапуск.Title=Group routine run
+Item.ПрефиксОкончанияНомераВерсии.Title=end
+Item.ТипОчереди.ChoiceList.0.Presentation=General
+Item.ТипОчереди.ChoiceList.1.Presentation=For repository

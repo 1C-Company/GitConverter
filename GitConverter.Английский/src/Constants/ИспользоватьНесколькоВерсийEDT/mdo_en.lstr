@@ -1,0 +1,5 @@
+#Translations for: src/Constants/ИспользоватьНесколькоВерсийEDT/ИспользоватьНесколькоВерсийEDT.mdo
+
+Explanation=Signs of multiple versions of EDT.
+Synonym=Use multiple EDT versions
+ToolTip=Component 1C\:Ring, if on the repository conversion server have multiple versions of EDT requires the explicit version. If a constant value of True in the options when converting the repository, you can specify the version number of EDT.
