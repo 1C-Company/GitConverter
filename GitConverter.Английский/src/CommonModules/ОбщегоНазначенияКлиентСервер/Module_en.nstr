@@ -1,0 +1,5 @@
+#Translations for: src/CommonModules/ОбщегоНазначенияКлиентСервер/Module.bsl
+
+Method.ДополнитьСтруктуру.NStr.Пересечение\ ключей\ источника\ и\ приемника\:\ "%1"\..Lines=Intersection of source and receiver keys\: "%1".
+Method.СравнитьВерсии.NStr.Неправильный\ формат\ параметра\ СтрокаВерсии1\:\ %1.Lines=Invalid format for parameter СтрокаВерсии1\: %1
+Method.СравнитьВерсии.NStr.Неправильный\ формат\ параметра\ СтрокаВерсии2\:\ %1.Lines=Invalid format for parameter СтрокаВерсии2\: %1

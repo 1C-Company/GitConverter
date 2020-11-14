@@ -1,0 +1,10 @@
+#Translations for: src/Configuration/Configuration.mdo
+
+BriefInformation=1C\:GitConverter, ed. 1.0
+ConfigurationInformationAddress=http\://v8.1c.ru/
+Copyright=Copyright © 1C-Soft LLC, All rights reserved. This program and accompanying materials are provided under the terms of the Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license. the license Text is available at\: https\://creativecommons.org/licenses/by-sa/4.0/legalcode
+DetailedInformation=1C\:GitConverter, edition 1.0
+Language.Английский.Synonym=English
+Language.Русский.Synonym=Russian
+Synonym=1C\:GitConverter, ed. 1.0
+VendorInformationAddress=http\://1c.com

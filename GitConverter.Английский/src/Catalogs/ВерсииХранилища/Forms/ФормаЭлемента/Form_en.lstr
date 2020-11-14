@@ -1,0 +1,10 @@
+#Translations for: src/Catalogs/ВерсииХранилища/Forms/ФормаЭлемента/Form.form
+
+Attribute.ИмяФайлаЛога.Title=Log file name
+Attribute.ФоновоеЗаданиеПроцент.Title=Background job percent
+Attribute.ФоновоеЗаданиеСостояние.Title=Background job state
+Command.ЗапуститьОбработкуВерсии.Title=Run version processing
+Command.ОбновитьСостояние.Title=Update state
+Item.ГруппаСостояние.ToolTip=State group
+Item.ИмяФайлаЛога.Title=Log
+Item.ИмяФайлаЛога.ToolTip=The log file of actions with the current version

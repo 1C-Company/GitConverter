@@ -1,0 +1,6 @@
+#Translations for: src/Catalogs/ХранилищаКонфигураций/ObjectModule.bsl
+
+Method.ОбработкаПроверкиЗаполнения.Var.Сообщение.NStr.Версия\ должна\ быть\ в\ формате\ Х\.Х\.Х\.Х.Lines=Version must be in format X. X. X. X
+Method.ОбработкаПроверкиЗаполнения.Var.Сообщение.NStr.Выгрузка\ изменений\ доступна\ при\ вклченой\ опции\ "Очереди\ выполнения".Lines=Upload of changes is available at volcanoe by selecting "execution Queue"
+Method.ПередЗаписью.NStr.Конвертация\ хранилища.Lines=Repository conversion
+Method.ПриЗаписи.Var.НаименованиеЗадания.NStr.Конвертация\ хранилища.Lines=Repository conversion

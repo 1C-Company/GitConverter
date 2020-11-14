@@ -1,0 +1,25 @@
+#Translations for: src/Catalogs/ВерсииХранилища/ВерсииХранилища.mdo
+
+Attribute.ВыгрузкаИзменений.Synonym=Dump changes
+Attribute.ВыгрузкаИзменений.ToolTip=From the version base dumped only the changes compared to the previous version. Available starting from platform 8.3.10.
+Attribute.ДатаСоздания.Synonym=Creation date
+Attribute.Источник.Synonym=Source
+Attribute.Источник.ToolTip=The source of repository version dumping
+Attribute.КаталогВременныхФайлов.Synonym=Temporary file directory
+Attribute.КоличествоМетаданных.Synonym=Metadata count
+Attribute.Комментарий.Synonym=Comment
+Attribute.Пользователь.Synonym=User
+Attribute.Состояние.Synonym=State
+Attribute.УдалитьКаталогИБ.Synonym=Absolete directory of IB
+Attribute.УдалитьКаталогФайловКонфигурации.Synonym=Absolete the configuration files directory
+Attribute.Хеш.Synonym=Hash
+Attribute.Хеш.ToolTip=The SHA1 hash of the commit version in Git is populated automatically when commiting the version in the repository.
+Form.ФормаСписка.Synonym=List form
+Form.ФормаЭлемента.Synonym=Item form
+ObjectPresentation=Repository version
+StandardAttribute.Code.Synonym=Version
+StandardAttribute.Owner.Synonym=Storage
+Synonym=Repository versions
+TabularSection.Состав.Attribute.ОбъектМетаданных.Synonym=Metadata object
+TabularSection.Состав.Attribute.Тип.Synonym=Type
+TabularSection.Состав.Synonym=Content

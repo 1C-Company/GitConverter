@@ -1,0 +1,18 @@
+#Translations for: src/Catalogs/ОчередиВыполнения/ОчередиВыполнения.mdo
+
+Attribute.МаксимальноеКоличествоОпераций.Synonym=Maximum number of operations
+Attribute.МаксимальноеКоличествоОпераций.ToolTip=The maximum number of operations per session run reg.jobs in the queue.
+Attribute.Операция.Synonym=Operation
+Attribute.Операция.ToolTip=The operation performed by the queue.
+Attribute.ПрефиксНачалаНомераВерсии.Synonym=Prefix of beginning version number
+Attribute.ПрефиксНачалаНомераВерсии.ToolTip=Allows you to skip the first selected version, if you want to parallelize dumping changes. Version start processing is calculated from the placed version + prefix.
+Attribute.ПрефиксОкончанияНомераВерсии.Synonym=Prefix of end version number
+Attribute.ПрефиксОкончанияНомераВерсии.ToolTip=Allows you to skip the first selected version, if you want to parallelize dumping changes. Version start processing is calculated from the placed version + prefix.
+Attribute.РегламентноеЗадание.Synonym=Scheduled job
+Attribute.Хранилище.Synonym=Storage
+Command.ОчередиВыполнения.Synonym=Execution queues
+Form.ФормаСписка.Synonym=List form
+Form.ФормаЭлемента.Synonym=Item form
+ObjectPresentation=Execution queue
+StandardAttribute.Owner.Synonym=Storage
+Synonym=Execution queues

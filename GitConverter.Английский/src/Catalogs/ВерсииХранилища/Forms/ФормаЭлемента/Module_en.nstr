@@ -1,0 +1,3 @@
+#Translations for: src/Catalogs/ВерсииХранилища/Forms/ФормаЭлемента/Module.bsl
+
+Method.ПриЧтенииНаСервере.Var.СостояниеЗадания.NStr.Выполняется\ обработка\ с\ %Дата%.Lines=Run processig from %Дата%

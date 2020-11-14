@@ -1,0 +1,3 @@
+#Translations for: src/CommonModules/ОбщегоНазначенияКлиент/Module.bsl
+
+Method.ПодтвердитьЗакрытиеФормы.Var.ТекстВопроса.NStr.Данные\ были\ изменены\.\ Сохранить\ изменения?.Lines=Data has been changed. Save the changes?

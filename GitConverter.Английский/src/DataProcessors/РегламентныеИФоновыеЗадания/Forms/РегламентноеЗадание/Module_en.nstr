@@ -1,0 +1,10 @@
+#Translations for: src/DataProcessors/РегламентныеИФоновыеЗадания/Forms/РегламентноеЗадание/Module.bsl
+
+Method.ВыборШаблонаНовогоРегламентногоЗадания.NStr.Выберите\ шаблон\ регламентного\ задания.Lines=Select a scheduled job template
+Method.ОбновитьЗаголовокФормы.Var.Заголовок.NStr.%1\ (Регламентное\ задание).Lines=%1 (Scheduled job)
+Method.ОбновитьЗаголовокФормы.Var.Заголовок.NStr.Регламентное\ задание\ (создание).Lines=Scheduled job (creation)
+Method.ПриСозданииНаСервере.NStr.Неверные\ параметры\ открытия\ формы\ "Регламентное\ задание"\..Lines=Incorrect parameters of opening form "Scheduled job".
+Method.ПриСозданииНаСервере.Var.Идентификатор.NStr.<будет\ создан\ при\ записи>.Lines=<will be created when writing>
+Method.ПриСозданииНаСервере.Var.ИмяМетаданных.NStr.<нет\ метаданных>.Lines=<no metadata>
+Method.ПриСозданииНаСервере.Var.ИмяМетодаМетаданных.NStr.<нет\ метаданных>.Lines=<no metadata>
+Method.ПриСозданииНаСервере.Var.СинонимМетаданных.NStr.<нет\ метаданных>.Lines=<no metadata>

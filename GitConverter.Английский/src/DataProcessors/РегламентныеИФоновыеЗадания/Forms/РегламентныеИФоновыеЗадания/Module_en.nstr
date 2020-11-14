@@ -1,0 +1,22 @@
+#Translations for: src/DataProcessors/РегламентныеИФоновыеЗадания/Forms/РегламентныеИФоновыеЗадания/Module.bsl
+
+Method.ВыполнитьРегламентноеЗаданиеВручную.NStr.%1\.\nПроцедура\ запущена\ в\ фоновом\ задании\ %2.Lines=%1.\nThe procedure is run in background job%2
+Method.ВыполнитьРегламентноеЗаданиеВручную.NStr.Выберите\ регламентное\ задание\..Lines=Select scheduled job.
+Method.ВыполнитьРегламентноеЗаданиеВручную.NStr.Запущена\ процедура\ регламентного\ задания.Lines=Scheduled job is launched
+Method.ВыполнитьРегламентноеЗаданиеВручную.NStr.Показать\ ошибки.Lines=Show errors
+Method.ВыполнитьРегламентноеЗаданиеВручную.NStr.Процедура\ регламентного\ задания\ "%1"\n\ \ уже\ выполняется\ в\ фоновом\ задании\ "%2",\ начатом\ %3\..Lines=Procedure of scheduled job "%1"\nis already executed in background job "%2" started %3.
+Method.ВыполнитьРегламентноеЗаданиеВручную.Var.ЗаголовокТекстаПроОшибки.NStr.Задания\ выполнены\ с\ ошибками\ (%1\ из\ %2).Lines=Jobs are completed with errors (%1 out of %2)
+Method.ДобавитьСкопироватьИзменитьРегламентноеЗадание.NStr.Выберите\ регламентное\ задание\..Lines=Select scheduled job.
+Method.НастроитьРасписание.NStr.Выберите\ регламентное\ задание\..Lines=Select scheduled job.
+Method.ОбновитьТаблицуФоновыхЗаданий.Var.Обновляемое.NStr.<не\ найдено>.Lines=<not found>
+Method.ОткрытьФоновоеЗадание.NStr.Выберите\ фоновое\ задание\..Lines=Select background job.
+Method.ОтменитьФоновоеЗадание.NStr.Выберите\ фоновое\ задание\..Lines=Select background job.
+Method.ОтменитьФоновоеЗадание.NStr.Задание\ отменено,\ но\ состояние\ отмены\ будет\nустановлено\ сервером\ только\ через\ секунды,\nвозможно\ потребуется\ обновить\ данные\ вручную\..Lines=The job is canceled, but the canceled state will be\nset by the server only in several seconds,\nyou might need to update the data manually.
+Method.СообщитьОбОкончанииРучногоВыполненияРегламентногоЗадания.NStr.%1\.\nПроцедура\ завершена\ в\ фоновом\ задании\ %2.Lines=%1.\nThe procedure is completed in background job %2
+Method.СообщитьОбОкончанииРучногоВыполненияРегламентногоЗадания.NStr.Выполнена\ процедура\ регламентного\ задания.Lines=Scheduled job procedure is executed
+Method.ТаблицаРегламентныеЗаданияПередУдалением.NStr.Выберите\ одно\ регламентное\ задание\..Lines=Select one scheduled job.
+Method.ТаблицаРегламентныеЗаданияПередУдалением.NStr.Невозможно\ удалить\ предопределенное\ регламентное\ задание\..Lines=Cannot delete the predefined scheduled job.
+Method.ТаблицаРегламентныеЗаданияПередУдалением.NStr.Удалить\ регламентное\ задание?.Lines=Remove the scheduled job?
+Method.УстановитьУсловноеОформление.NStr.<>.Lines=
+Method.УстановитьУсловноеОформление.Var.ОтборЭлемента.NStr.<не\ определено>.Lines=<not determined>
+Method.ФормированиеТаблицыФоновыхЗаданийВФоне.Var.Результат.NStr.Регламентные\ задания\.\ Обновление\ списка\ фоновых\ заданий.Lines=Scheduled jobs. Updating a list of background jobs

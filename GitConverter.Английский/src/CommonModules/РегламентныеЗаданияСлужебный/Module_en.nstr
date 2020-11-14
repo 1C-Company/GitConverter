@@ -1,0 +1,6 @@
+#Translations for: src/CommonModules/РегламентныеЗаданияСлужебный/Module.bsl
+
+Method.ВыполнитьРегламентноеЗаданиеВручную.Var.НаименованиеФоновогоЗадания.NStr.Запуск\ вручную\:\ %1.Lines=Start manually\: %1
+Method.ОтменитьФоновоеЗадание.NStr.Задание\ не\ выполняется,\ его\ нельзя\ отменить\..Lines=Cannot complete the job, it cannot be canceled.
+Method.ОтменитьФоновоеЗадание.NStr.Фоновое\ задание\ не\ найдено\ на\ сервере\..Lines=Background job is not found on the server.
+Method.ТекстНеОпределено.NStr.<не\ определено>.Lines=<not determined>

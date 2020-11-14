@@ -1,0 +1,4 @@
+#Translations for: src/Catalogs/ОчередиВыполнения/ObjectModule.bsl
+
+Method.ПередЗаписью.NStr.Обработка\ очереди.Lines=Queue processing
+Method.ПриЗаписи.Var.НаименованиеЗадания.NStr.Обработка\ очереди.Lines=Queue processing

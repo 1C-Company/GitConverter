@@ -1,0 +1,4 @@
+#Translations for: src/CommonModules/РегламентныеЗаданияСервер/Module.bsl
+
+Method.ПолучитьРегламентноеЗадание.NStr.Регламентное\ задание\ не\ найдено\.\nВозможно,\ оно\ удалено\ другим\ пользователем\..Lines=Scheduled job was not found.\nIt might have been deleted by another user.
+Method.УдалитьЗадание.NStr.Предопределенное\ регламентное\ задание\ удалить\ невозможно\..Lines=Cannot delete predefined scheduled job.

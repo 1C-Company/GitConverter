@@ -1,0 +1,13 @@
+#Translations for: src/Reports/СкоростьКонвертации/Templates/ОсновнаяСхемаКомпоновкиДанных/Template.dcs
+
+DataSet.НаборДанных1.Field.Версия.Title.Content=Version
+DataSet.НаборДанных1.Field.КоличествоВерсий.Title.Content=Version count
+DataSet.НаборДанных1.Field.ПериодДень.Title.Content=Period day
+DataSet.НаборДанных1.Field.ПериодМасяц.Title.Content=Period month
+DataSet.НаборДанных1.Field.ПериодМинута.Title.Content=Period minute
+DataSet.НаборДанных1.Field.ПериодНеделя.Title.Content=Period week
+DataSet.НаборДанных1.Field.ПериодЧас.Title.Content=Period hour
+DataSet.НаборДанных1.Field.Хранилище.Title.Content=Storage
+Parameter.Период.Title.Content=Period
+Variant.Основной.Presentation.Content=Main
+Variant.Основной.Settings.OutputParameters.Items.0.Content=Converting speed

@@ -1,0 +1,3 @@
+#Translations for: src/CommonModules/ОбщегоНазначения/Module.bsl
+
+Method.ЗначенияРеквизитовОбъекта.NStr.Неверный\ тип\ второго\ параметра\ Реквизиты\:\ %1.Lines=Incorrect type of the second parameter"\n"Attributes\: %1

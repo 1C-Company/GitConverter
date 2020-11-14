@@ -29,6 +29,8 @@
 ### Необходимые компоненты
 
 * Конфигурацию можно запустить, используя 1C:Enterprise Development Tools 2020.6 (https://releases.1c.ru/project/DevelopmentTools10)
+* Расширение 1C:Language Tool для локализации английского интерфейса (https://its.1c.ru/db/edtplugins#bookmark:languagetool:LanguageTool)
+* Расширение 1C:SSL-support (поддержка разработки на основе 1С:БСП) (https://its.1c.ru/db/edtplugins#bookmark:sslsupport:SSLsupport)
 * Платформа 1С:Предприятия 8.3.12 и выше (https://releases.1c.ru/project/Platform83)
 * СУБД, поддерживаемая 1С:Предприятием
 * OS Windows 7 или выше, ОС Linux и macOS - в бета-режиме.

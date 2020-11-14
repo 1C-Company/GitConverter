@@ -1,0 +1,5 @@
+#Translations for: src/Enums/ОперацииОчереди/ОперацииОчереди.mdo
+
+EnumValue.ВыгрузкаКонфигурации.Synonym=Configuration dump
+EnumValue.ЗагрузкаМетаданных.Synonym=Metadata load
+Synonym=Queue operations

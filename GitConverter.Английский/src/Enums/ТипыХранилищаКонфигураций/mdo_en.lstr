@@ -1,0 +1,5 @@
+#Translations for: src/Enums/ТипыХранилищаКонфигураций/ТипыХранилищаКонфигураций.mdo
+
+EnumValue.Конфигурация.Synonym=Configuration
+EnumValue.Расширение.Synonym=Extension
+Synonym=Type of Configuration repository

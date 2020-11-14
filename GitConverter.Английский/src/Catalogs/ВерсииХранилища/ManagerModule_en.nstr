@@ -1,0 +1,4 @@
+#Translations for: src/Catalogs/ВерсииХранилища/ManagerModule.bsl
+
+Method.ЗагрузитьВерсииИзОтчета.NStr.Загрузка\ версий\ хранилища\ конфигурации.Lines=Download of versions of configuration repository
+Method.ЗагрузитьВерсииИзОтчета.NStr.Некорректный\ отчет\ из\ хранилища.Lines=Incorrect report form repository

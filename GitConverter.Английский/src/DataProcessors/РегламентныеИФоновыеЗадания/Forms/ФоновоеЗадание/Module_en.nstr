@@ -1,0 +1,3 @@
+#Translations for: src/DataProcessors/РегламентныеИФоновыеЗадания/Forms/ФоновоеЗадание/Module.bsl
+
+Method.ПриСозданииНаСервере.NStr.Фоновое\ задание\ не\ найдено\..Lines=Background job is not found. 

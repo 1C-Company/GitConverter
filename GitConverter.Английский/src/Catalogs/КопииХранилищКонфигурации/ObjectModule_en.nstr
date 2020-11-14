@@ -1,0 +1,4 @@
+#Translations for: src/Catalogs/КопииХранилищКонфигурации/ObjectModule.bsl
+
+Method.ПередЗаписью.NStr.Выгрузка\ версий\ из\ копии.Lines=Dumping version from copy
+Method.ПриЗаписи.Var.НаименованиеЗадания.NStr.Выгрузка\ версий\ из\ копии.Lines=Dumping version from copy

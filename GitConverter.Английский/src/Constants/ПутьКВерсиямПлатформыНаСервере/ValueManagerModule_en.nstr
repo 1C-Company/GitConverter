@@ -1,0 +1,3 @@
+#Translations for: src/Constants/ПутьКВерсиямПлатформыНаСервере/ValueManagerModule.bsl
+
+Method.ОбработкаПроверкиЗаполнения.NStr.В\ пути\ к\ версиям\ необходимо\ использовать\ <%ВерсияПлатформы%>\ для\ подстановки\ версии\ платформы\..Lines=In the path to versions, you must use <%ВерсияПлатформы%> for substituting the platform version.

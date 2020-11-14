@@ -1,0 +1,7 @@
+#Translations for: src/CommonModules/ДлительныеОперации/Module.bsl
+
+Method.ЗаданиеВыполнено.NStr.Длительные\ операции\.Фоновое\ задание\ не\ найдено.Lines=Long actions.Background job is not found
+Method.ЗаданиеВыполнено.NStr.Длительные\ операции\.Фоновое\ задание\ отменено\ администратором.Lines=Long actions.Background job is canceled by administrator
+Method.ЗаданиеВыполнено.NStr.Задание\ завершилось\ с\ неизвестной\ ошибкой\..Lines=Job was completed with an unknown error.
+Method.ЗаданиеВыполнено.NStr.Не\ удалось\ выполнить\ данную\ операцию\.\ \nПодробности\ см\.\ в\ Журнале\ регистрации\..Lines=Could not perform this operation. \nSee details in the Log.
+Method.ОтменитьВыполнениеЗадания.NStr.Длительные\ операции\.Отмена\ выполнения\ фонового\ задания.Lines=Long actions.Cancel background job execution

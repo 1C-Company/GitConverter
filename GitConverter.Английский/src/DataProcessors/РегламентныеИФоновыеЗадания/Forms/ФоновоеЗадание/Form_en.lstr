@@ -1,0 +1,19 @@
+#Translations for: src/DataProcessors/РегламентныеИФоновыеЗадания/Forms/ФоновоеЗадание/Form.form
+
+Attribute.Идентификатор.Title=Identifier
+Attribute.ИдентификаторРегламентногоЗадания.Title=Identifier
+Attribute.ИмяМетода.Title=Metadata method name
+Attribute.Ключ.Title=Key
+Attribute.Конец.Title=End date
+Attribute.Наименование.Title=Name
+Attribute.НаименованиеРегламентногоЗадания.Title=Scheduled job name
+Attribute.Начало.Title=Start date
+Attribute.Расположение.Title=
+Attribute.СообщенияПользователюИОписаниеИнформацииОбОшибке.Title=User messages and error details
+Attribute.Состояние.Title=State
+Item.Дополнительно.Title=
+Item.НаименованиеРегламентногоЗадания.Title=Name
+Item.Основное.Title=1. Main
+Item.РегламентноеЗадание.Title=
+Item.СообщенияПользователюИОписаниеИнформацииОбОшибке.Title=
+Title=Background job
