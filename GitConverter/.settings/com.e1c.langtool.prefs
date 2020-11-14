@@ -1,0 +1,3 @@
+eclipse.preferences.version=1
+storage/defaulEditing=com.e1c.langtool.v8.dt.resourcestorage.composite\:trans
+storage/order=com.e1c.langtool.v8.dt.resourcestorage.context\:trans;com.e1c.langtool.v8.dt.resourcestorage.composite\:trans;com.e1c.langtool.v8.dt.resourcestorage.common\:common;com.e1c.langtool.v8.dt.storage\:platform;com.e1c.langtool.v8.dt.md.dbview\:terms
