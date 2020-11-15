@@ -1,0 +1,4 @@
+#Translations for: src/CommonForms/Настройки/Form.form
+
+Command.ПроверитьВерсииEDT.Title=Check EDT versions...
+Item.ДоступныеПлатформы.Title=Avalable versions\: %1

@@ -13,7 +13,10 @@
   <type>
     <types>Boolean</types>
   </type>
-  <useStandardCommands>true</useStandardCommands>
+  <toolTip>
+    <key>ru</key>
+    <value>Очереди позволяют ограничить количество операций, выполняемых фоновыми заданиями. Различается два вида операций: операции выгрузки конфигурации и операции загрузки метаданных, которые необходимо настроить для корректной работы конвертации.</value>
+  </toolTip>
   <mask></mask>
   <minValue xsi:type="core:UndefinedValue"/>
   <maxValue xsi:type="core:UndefinedValue"/>

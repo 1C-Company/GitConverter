@@ -1,0 +1,7 @@
+#Translations for: src/CommonForms/Настройки/Module.bsl
+
+Method.ПроверитьВерсииEDT.NStr.На\ сервере\ устновлена\ одна\ версия\ EDT\.\ Опция\ может\ остаться\ выключенной\..Lines=Single versions of EDT installed on server. Option may stay disabled.
+Method.ПроверитьВерсииEDT.NStr.На\ сервере\ устновлено\ несколько\ версий\ EDT\.\ Опция\ должна\ остаться\ включенной\..Lines=Multiple versions of EDT installed on server. Option should stay enabled.
+Method.ПроверитьВерсииEDT.NStr.Установлено\ несколько\ версий\ EDT,\ для\ корретной\ работоты\ утилиты\ Ring\ необходимо\ указать\ номер\ версии\.\ \nВключить\ возможность\ определения\ номера\ версии?.Lines=Multiple versions of EDT installed, for correct work of Ring utility it must to specify the version number. \nEnable feature that allows to specify the version number?
+Method.ПроверитьВерсииEDT.NStr.Установлено\ несколько\ версий\ EDT,\ для\ корретной\ работоты\ утилиты\ ring\ необходимо\nуказать\ номер\ версии\.\ Включить\ возможность\ определения\ номера\ версии?.Lines=You have multiple versions of EDT for karetnoy rabotaty utility ring must\nto specify the version number. To include the possibility of determining the version number?
+Method.ПутьКВерсиямПлатформыНаСервереПриИзмененииНаСервере.NStr.Доступные\ версии\:\ %1.Lines=Avalable versions\: %1

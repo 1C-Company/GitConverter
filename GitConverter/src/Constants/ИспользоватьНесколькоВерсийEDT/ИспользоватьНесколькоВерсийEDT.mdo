@@ -12,7 +12,6 @@
   <type>
     <types>Boolean</types>
   </type>
-  <useStandardCommands>true</useStandardCommands>
   <explanation>
     <key>ru</key>
     <value>Признак использования нескольких версий EDT.</value>

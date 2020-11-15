@@ -92,6 +92,7 @@
   <constants>Constant.ИспользоватьНесколькоВерсийEDT</constants>
   <constants>Constant.ИспользоватьОчередиВыполнения</constants>
   <constants>Constant.ПутьКВерсиямПлатформыНаСервере</constants>
+  <commonForms>CommonForm.Настройки</commonForms>
   <catalogs>Catalog.ВерсииХранилища</catalogs>
   <catalogs>Catalog.КопииХранилищКонфигурации</catalogs>
   <catalogs>Catalog.ОчередиВыполнения</catalogs>
