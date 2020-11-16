@@ -43,3 +43,5 @@ Method.УстановитьАдресРепозиторияGit.NStr.Ошибка
 Method.УстановитьАдресРепозиторияGit.NStr.Понимаю,\ установить\ адрес\ сервера\!.Lines=Understand, set the server address\!
 Method.УстановитьАдресРепозиторияGit.Var.ТекстВопроса.NStr.Ветка\ %1\ существует\ на\ сервере\.\ При\ отправке\ изменений\ могут\ возникнуть\ конфилкты,\ которые\ необходимо\ будет\ разрешить\ вручную\.\nУстановить\ адрес\ сервера?.Lines=The %1 branch exists on the server. When pushing changes, conflicts may occur that need to be resolved manually.\nSet the server address?
 Method.УстановитьАдресРепозиторияGitОтвет.NStr.Лог\ операции.Lines=Operation log
+Method.УстановитьДоступность.NStr.Начиная\ с\ версии.Lines=Begin from version
+Method.УстановитьДоступность.NStr.Первая\ версия.Lines=First version

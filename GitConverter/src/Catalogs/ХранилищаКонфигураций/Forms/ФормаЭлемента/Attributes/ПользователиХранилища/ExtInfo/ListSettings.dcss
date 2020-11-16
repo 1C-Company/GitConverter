@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Settings xmlns="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core">
+	<conditionalAppearance>
+		<item>
+			<selection>
+				<item>
+					<field>Email</field>
+				</item>
+				<item>
+					<field>Имя</field>
+				</item>
+				<item>
+					<field>Пользователь</field>
+				</item>
+			</selection>
+			<filter>
+				<item xsi:type="FilterItemComparison">
+					<left xsi:type="dcscor:Field">Email</left>
+					<comparisonType>NotFilled</comparisonType>
+					<right xsi:type="xs:string"/>
+				</item>
+			</filter>
+			<appearance>
+				<dcscor:item xsi:type="SettingsParameterValue">
+					<dcscor:parameter>ЦветФона</dcscor:parameter>
+					<dcscor:value xsi:type="v8ui:Color">style:SpecialTextColor</dcscor:value>
+				</dcscor:item>
+			</appearance>
+			<presentation xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Не заполнен email</v8:content>
+				</v8:item>
+			</presentation>
+		</item>
+	</conditionalAppearance>
+</Settings>

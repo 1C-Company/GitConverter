@@ -17,6 +17,9 @@ git lfs track "*.gif"
 git lfs track "*.bmp"
 git lfs track "*.jpg"
 git lfs track "*.zip"
+git lfs track "*.axdt"
+git lfs track "*.addin"
+git lfs track "*.oform"
 ```
 В этом примере - все файлы конфигураций поставщиков, файлы макетов с "Двоичными данными" и картинки из конфигурации попадут в lfs.
 
@@ -25,4 +28,25 @@ git lfs track "*.zip"
 ```bash
 git lfs track "*/Ext/Template.bin"
 git lfs track "*/Ext/Module.bin"
+```
+
+Пример файла настроек репозитория:
+
+```
+﻿# Binary file extensions that should not be modified.
+*.bin binary
+*.axdt binary
+*.addin binary
+*.oform binary
+# LFS
+*.cf filter=lfs diff=lfs merge=lfs -text
+*.bin filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.gif filter=lfs diff=lfs merge=lfs -text
+*.bmp filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
+*.axdt filter=lfs diff=lfs merge=lfs -text
+*.addin filter=lfs diff=lfs merge=lfs -text
+*.oform filter=lfs diff=lfs merge=lfs -text
 ```

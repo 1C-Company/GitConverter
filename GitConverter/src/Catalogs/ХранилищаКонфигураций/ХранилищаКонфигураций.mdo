@@ -154,11 +154,31 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="cc42b1ad-4215-4286-9f90-ed31171b7d43">
-    <name>ВерсияПлатформы</name>
+  <attributes uuid="c73b46ce-1a23-452b-8e09-2b68bf2f5034">
+    <name>ВерсияПлатформыХранилища</name>
     <synonym>
       <key>ru</key>
-      <value>Версия платформы</value>
+      <value>Версия платформы хранилища</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Позволяет указать версию платформы для подключения к Хранилищу 1С, откличную от версии выгрузки. Если не указано, то используется версия платформы, указанная в справочнике настройки конрвертации хранилища.</value>
+    </toolTip>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cc42b1ad-4215-4286-9f90-ed31171b7d43">
+    <name>ВерсияПлатформыВыгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия платформы выгрузки</value>
     </synonym>
     <comment></comment>
     <type>
@@ -174,6 +194,7 @@
     <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -557,7 +578,9 @@
     <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -820,6 +843,10 @@
         <length>100</length>
       </stringQualifiers>
     </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Имя конфигурации расширения в хранилище 1С</value>
+    </toolTip>
     <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -844,6 +871,25 @@
         <value>Enum.ТипыХранилищаКонфигураций.EnumValue.Конфигурация</value>
       </value>
     </choiceParameters>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="998c0b86-d6e6-4cc6-a4e9-b2872deadb76">
+    <name>ВерсияПроектаEDT</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия проекта EDT</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
