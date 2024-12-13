@@ -862,6 +862,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="cd5d26c1-db61-44fa-b213-bf32fc489f2b">
+    <name>ВерсияEDTCLI</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия EDTCLI</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВерсииEDT</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="6cc206d4-d733-4a4a-8ed2-adf76440f6af">
     <name>ФормаЭлемента</name>
     <synonym>
