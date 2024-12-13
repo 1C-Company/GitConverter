@@ -21,7 +21,7 @@
   <defaultRoles>Role.АдминистраторСистемы</defaultRoles>
   <defaultRoles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</defaultRoles>
   <vendor>Фирма &quot;1С&quot;</vendor>
-  <version>1.0.8.4</version>
+  <version>1.0.9.0</version>
   <updateCatalogAddress>http://downloads.v8.1c.ru/tmplts/</updateCatalogAddress>
   <includeHelpInContents>true</includeHelpInContents>
   <help>
