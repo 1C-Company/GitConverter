@@ -84,6 +84,7 @@
   <commonModules>CommonModule.РегламентныеЗаданияСлужебный</commonModules>
   <commonModules>CommonModule.СтандартныеПодсистемыСервер</commonModules>
   <commonModules>CommonModule.СтроковыеФункцииКлиентСервер</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияВызовСервера</commonModules>
   <scheduledJobs>ScheduledJob.ВыгрузкаВерсииИзКопииХранилища</scheduledJobs>
   <scheduledJobs>ScheduledJob.КонвертацияХранилища</scheduledJobs>
   <scheduledJobs>ScheduledJob.ОбработкаОчереди</scheduledJobs>
@@ -96,6 +97,7 @@
   <catalogs>Catalog.КопииХранилищКонфигурации</catalogs>
   <catalogs>Catalog.ОчередиВыполнения</catalogs>
   <catalogs>Catalog.ХранилищаКонфигураций</catalogs>
+  <catalogs>Catalog.ВерсииEDT</catalogs>
   <enums>Enum.ОперацииОчереди</enums>
   <enums>Enum.СостоянияВерсии</enums>
   <enums>Enum.ТипыХранилищаКонфигураций</enums>

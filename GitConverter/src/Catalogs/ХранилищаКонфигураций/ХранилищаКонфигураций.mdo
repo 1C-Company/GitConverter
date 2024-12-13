@@ -847,6 +847,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="1188b116-874e-4783-9837-e2e079624c83">
+    <name>ИспользуетсяCLI</name>
+    <synonym>
+      <key>ru</key>
+      <value>Используется CLI (EDT 2024+)</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="6cc206d4-d733-4a4a-8ed2-adf76440f6af">
     <name>ФормаЭлемента</name>
     <synonym>
