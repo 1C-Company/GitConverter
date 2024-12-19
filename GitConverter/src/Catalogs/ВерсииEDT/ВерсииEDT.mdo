@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e7ae28d9-60d7-4498-b7f4-5d977663282a">
+  <producedTypes>
+    <objectType typeId="fa9c6b07-4d01-4a9b-9af4-b3f706ee1894" valueTypeId="d821893b-a555-4b8f-87af-75b46df2bde0"/>
+    <refType typeId="c4849d39-9a63-40ab-bac8-47c3bc36b97f" valueTypeId="a647b3d8-289c-423d-b9d2-29919d9dc79b"/>
+    <selectionType typeId="83aa1b3c-4454-44cd-8ea5-a04e7f58829b" valueTypeId="7619c7ab-4d13-4635-8530-2d11a5228678"/>
+    <listType typeId="7b4f0f54-74da-41f7-9303-2b1bd05752ae" valueTypeId="4d3362cb-7e52-4be6-abe7-128604989260"/>
+    <managerType typeId="e2fce3be-932e-4181-ab74-ee510d62d09e" valueTypeId="a4719119-bf56-4516-94a3-8a5c6dde8464"/>
+  </producedTypes>
+  <name>ВерсииEDT</name>
+  <synonym>
+    <key>ru</key>
+    <value>Версии EDT</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВерсииEDT.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ВерсииEDT.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="c3f393a2-716f-44ac-bf44-03c61a824b79">
+    <name>ПутьКCLI</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь КCLI</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="479d688b-669a-4a1d-b078-490d33f6f004">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
